@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url>
+	<loc>http://naturfive.com</loc>
+	<lastmod>2021-02-06</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>1.0</priority>
+	<image:image>
+	<image:loc>http://naturfive.com/img/logo-naturfive.jpg</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://naturfive.com/img/logo-naturfive.jpg</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://naturfive.com/produtos/</loc>
+	<lastmod>2021-02-06</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://naturfive.com/img/delineadores-para-os-olhos-magnetico.jpg</image:loc>
+	<image:title>delineadores%20para-os-olhos-magnetico</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://naturfive.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://naturfive.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://naturfive.com/sobre/</loc>
+	<lastmod>2021-02-06</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://naturfive.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://naturfive.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://naturfive.com/politicas-de-privacidade/</loc>
+	<lastmod>2021-02-06</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://naturfive.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://naturfive.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://naturfive.com/duvidas/</loc>
+	<lastmod>2021-02-06</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://naturfive.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://naturfive.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://naturfive.com/mam-caps/</loc>
+	<lastmod>2021-02-06</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://naturfive.com/img/placeholder-image.png</image:loc>
+	<image:title>placeholder%20image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://naturfive.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://naturfive.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://naturfive.com/mam-caps-ads/</loc>
+	<lastmod>2021-02-06</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://naturfive.com/img/mam-caps-comprar-min.png</image:loc>
+	<image:title>comprar-mam-caps-desconto</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://naturfive.com/img/bebes-fundo-mam-caps.jpg</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://naturfive.com/img/hero-mam-caps-produto.png</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://naturfive.com/mam-caps-funciona/</loc>
+	<lastmod>2021-02-06</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://naturfive.com/img/mam-caps-comprar-min.png</image:loc>
+	<image:title>comprar-mam-caps-desconto</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://naturfive.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://naturfive.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://naturfive.com/contato/</loc>
+	<lastmod>2021-02-06</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://naturfive.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://naturfive.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://naturfive.com/404/</loc>
+	<lastmod>2021-02-06</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://naturfive.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://naturfive.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://naturfive.com/delineador-magnetico/</loc>
+	<lastmod>2021-02-06</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://naturfive.com/img/delineadores-para-os-olhos-magnetico.jpg</image:loc>
+	<image:title>delineadores%20para-os-olhos-magnetico</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://naturfive.com/img/delineador-frente.jpg</image:loc>
+	<image:title>delineador%20frente</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://naturfive.com/img/delineador-2-unidades.jpg</image:loc>
+	<image:title>delineador%20frente</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://naturfive.com/img/marca-do-delineador-min.png</image:loc>
+	<image:title>marca%20do-delineador-min</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://naturfive.com/img/delineador-2-unidades.jpg</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://naturfive.com/img/delineador-2-unidades.jpg</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+</urlset>
