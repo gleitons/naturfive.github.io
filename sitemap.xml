@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>http://naturfive.com</loc>
-	<lastmod>2021-02-13</lastmod>
+	<lastmod>2021-02-16</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -16,7 +16,7 @@
 </url>
 <url>
 	<loc>http://naturfive.com/produtos/</loc>
-	<lastmod>2021-02-13</lastmod>
+	<lastmod>2021-02-16</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -34,7 +34,7 @@
 </url>
 <url>
 	<loc>http://naturfive.com/sobre/</loc>
-	<lastmod>2021-02-13</lastmod>
+	<lastmod>2021-02-16</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -48,7 +48,7 @@
 </url>
 <url>
 	<loc>http://naturfive.com/politicas-de-privacidade/</loc>
-	<lastmod>2021-02-13</lastmod>
+	<lastmod>2021-02-16</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -62,7 +62,7 @@
 </url>
 <url>
 	<loc>http://naturfive.com/duvidas/</loc>
-	<lastmod>2021-02-13</lastmod>
+	<lastmod>2021-02-16</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -76,7 +76,7 @@
 </url>
 <url>
 	<loc>http://naturfive.com/mam-caps-ads/</loc>
-	<lastmod>2021-02-13</lastmod>
+	<lastmod>2021-02-16</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -94,7 +94,7 @@
 </url>
 <url>
 	<loc>http://naturfive.com/mam-caps-funciona/</loc>
-	<lastmod>2021-02-13</lastmod>
+	<lastmod>2021-02-16</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -112,7 +112,7 @@
 </url>
 <url>
 	<loc>http://naturfive.com/contato/</loc>
-	<lastmod>2021-02-13</lastmod>
+	<lastmod>2021-02-16</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -126,7 +126,7 @@
 </url>
 <url>
 	<loc>http://naturfive.com/404/</loc>
-	<lastmod>2021-02-13</lastmod>
+	<lastmod>2021-02-16</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -140,7 +140,7 @@
 </url>
 <url>
 	<loc>http://naturfive.com/delineador-magnetico/</loc>
-	<lastmod>2021-02-13</lastmod>
+	<lastmod>2021-02-16</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -170,7 +170,21 @@
 </url>
 <url>
 	<loc>http://naturfive.com/obrigado/</loc>
-	<lastmod>2021-02-13</lastmod>
+	<lastmod>2021-02-16</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://naturfive.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://naturfive.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://naturfive.com/sinedrol/</loc>
+	<lastmod>2021-02-16</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
