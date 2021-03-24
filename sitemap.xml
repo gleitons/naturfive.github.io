@@ -380,4 +380,18 @@
 	<image:title>Facebook Social Card Image</image:title>
 	</image:image>
 </url>
+<url>
+	<loc>http://naturfive.com/verao-shop/</loc>
+	<lastmod>2021-03-24</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://naturfive.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://naturfive.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
 </urlset>
