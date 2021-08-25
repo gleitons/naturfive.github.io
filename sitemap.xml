@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>https://naturfive.com</loc>
-	<lastmod>2021-04-09</lastmod>
+	<lastmod>2021-08-25</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -16,28 +16,32 @@
 </url>
 <url>
 	<loc>https://naturfive.com/produtos/</loc>
-	<lastmod>2021-04-09</lastmod>
+	<lastmod>2021-08-25</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
+	<image:loc>https://naturfive.com/img/sibutramin-produto-original-min.png</image:loc>
+	<image:title>amora care-amora-miura-naturfive-26300217000100</image:title>
+	</image:image>
+	<image:image>
 	<image:loc>https://naturfive.com/img/caps4skin-desconto-naturfive-26300217000100-min.png</image:loc>
-	<image:title>caps4skin%20desconto-naturfive-26300217000100-min</image:title>
+	<image:title>caps4skin desconto-naturfive-26300217000100-min</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/fortific-hair-desconto.jpg</image:loc>
-	<image:title>fortific%20hair-desconto</image:title>
+	<image:title>fortific hair-desconto</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/delineadores-para-os-olhos-magnetico.jpg</image:loc>
-	<image:title>delineadores%20para-os-olhos-magnetico</image:title>
+	<image:title>delineadores para-os-olhos-magnetico</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/amora-care-amora-miura-naturfive-26300217000100.png</image:loc>
-	<image:title>amora%20care-amora-miura-naturfive-26300217000100</image:title>
+	<image:title>amora care-amora-miura-naturfive-26300217000100</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/cha-21-ervas-produto-promocao.png</image:loc>
-	<image:title>caps4skin%20desconto-naturfive-26300217000100-min</image:title>
+	<image:title>caps4skin desconto-naturfive-26300217000100-min</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/</image:loc>
@@ -50,7 +54,7 @@
 </url>
 <url>
 	<loc>https://naturfive.com/sobre/</loc>
-	<lastmod>2021-04-09</lastmod>
+	<lastmod>2021-08-25</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -68,7 +72,7 @@
 </url>
 <url>
 	<loc>https://naturfive.com/politicas-de-privacidade/</loc>
-	<lastmod>2021-04-09</lastmod>
+	<lastmod>2021-08-25</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -82,7 +86,7 @@
 </url>
 <url>
 	<loc>https://naturfive.com/duvidas/</loc>
-	<lastmod>2021-04-09</lastmod>
+	<lastmod>2021-08-25</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -96,7 +100,7 @@
 </url>
 <url>
 	<loc>https://naturfive.com/mam-caps-ads/</loc>
-	<lastmod>2021-04-09</lastmod>
+	<lastmod>2021-08-25</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -114,7 +118,7 @@
 </url>
 <url>
 	<loc>https://naturfive.com/mam-caps-funciona/</loc>
-	<lastmod>2021-04-09</lastmod>
+	<lastmod>2021-08-25</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -132,12 +136,12 @@
 </url>
 <url>
 	<loc>https://naturfive.com/contato/</loc>
-	<lastmod>2021-04-09</lastmod>
+	<lastmod>2021-08-25</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
 	<image:loc>https://naturfive.com/img/recapture-placeholder.png</image:loc>
-	<image:title>recapture%20placeholder</image:title>
+	<image:title>recapture placeholder</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/</image:loc>
@@ -150,7 +154,7 @@
 </url>
 <url>
 	<loc>https://naturfive.com/404/</loc>
-	<lastmod>2021-04-09</lastmod>
+	<lastmod>2021-08-25</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -164,24 +168,24 @@
 </url>
 <url>
 	<loc>https://naturfive.com/delineador-magnetico/</loc>
-	<lastmod>2021-04-09</lastmod>
+	<lastmod>2021-08-25</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
 	<image:loc>https://naturfive.com/img/delineadores-para-os-olhos-magnetico.jpg</image:loc>
-	<image:title>delineadores%20para-os-olhos-magnetico</image:title>
+	<image:title>delineadores para-os-olhos-magnetico</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/delineador-frente.jpg</image:loc>
-	<image:title>delineador%20frente</image:title>
+	<image:title>delineador frente</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/delineador-2-unidades.jpg</image:loc>
-	<image:title>delineador%20frente</image:title>
+	<image:title>delineador frente</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/marca-do-delineador-min.png</image:loc>
-	<image:title>marca%20do-delineador-min</image:title>
+	<image:title>marca do-delineador-min</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/delineador-2-unidades.jpg</image:loc>
@@ -194,12 +198,12 @@
 </url>
 <url>
 	<loc>https://naturfive.com/obrigado/</loc>
-	<lastmod>2021-04-09</lastmod>
+	<lastmod>2021-08-25</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
 	<image:loc>https://naturfive.com/img/naturfive-logo.svg</image:loc>
-	<image:title>naturfive%20logo</image:title>
+	<image:title>naturfive logo</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/</image:loc>
@@ -212,7 +216,7 @@
 </url>
 <url>
 	<loc>https://naturfive.com/sinedrol/</loc>
-	<lastmod>2021-04-09</lastmod>
+	<lastmod>2021-08-25</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -226,12 +230,12 @@
 </url>
 <url>
 	<loc>https://naturfive.com/caps4skin/</loc>
-	<lastmod>2021-04-09</lastmod>
+	<lastmod>2021-08-25</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
 	<image:loc>https://naturfive.com/img/caps4skin-desconto-naturfive-26300217000100-min.png</image:loc>
-	<image:title>caps4skin%20desconto-naturfive-26300217000100-min</image:title>
+	<image:title>caps4skin desconto-naturfive-26300217000100-min</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/</image:loc>
@@ -244,7 +248,7 @@
 </url>
 <url>
 	<loc>https://naturfive.com/fortfichair/</loc>
-	<lastmod>2021-04-09</lastmod>
+	<lastmod>2021-08-25</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -258,12 +262,12 @@
 </url>
 <url>
 	<loc>https://naturfive.com/fortifichair-funciona/</loc>
-	<lastmod>2021-04-09</lastmod>
+	<lastmod>2021-08-25</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
 	<image:loc>https://naturfive.com/img/fortific-hair-para-cabelos.png</image:loc>
-	<image:title>fortific%20hair-para-cabelos</image:title>
+	<image:title>fortific hair-para-cabelos</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/</image:loc>
@@ -276,24 +280,24 @@
 </url>
 <url>
 	<loc>https://naturfive.com/clarevita/</loc>
-	<lastmod>2021-04-09</lastmod>
+	<lastmod>2021-08-25</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
 	<image:loc>https://naturfive.com/img/logo-clarevita-naturfive-26300217000100.png</image:loc>
-	<image:title>logo%20clarevita-naturfive-26300217000100</image:title>
+	<image:title>logo clarevita-naturfive-26300217000100</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/clarevita-clareador-de-pele-que-funciona-26300217000100-1x.jpg</image:loc>
-	<image:title>clarevita%20clareador-de-pele-que-funciona-26300217000100-1x</image:title>
+	<image:title>clarevita clareador-de-pele-que-funciona-26300217000100-1x</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/grafico-clarevita-como-funciona.jpg</image:loc>
-	<image:title>grafico%20clarevita-como-funciona</image:title>
+	<image:title>grafico clarevita-como-funciona</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/comprar-clarevita-com-desconto.png</image:loc>
-	<image:title>comprar%20clarevita-com-desconto</image:title>
+	<image:title>comprar clarevita-com-desconto</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/</image:loc>
@@ -306,7 +310,7 @@
 </url>
 <url>
 	<loc>https://naturfive.com/man-caps/</loc>
-	<lastmod>2021-04-09</lastmod>
+	<lastmod>2021-08-25</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -324,20 +328,20 @@
 </url>
 <url>
 	<loc>https://naturfive.com/360slim/</loc>
-	<lastmod>2021-04-09</lastmod>
+	<lastmod>2021-08-25</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
 	<image:loc>https://naturfive.com/img/360-slim-360slim-ver-video-completo.jpeg</image:loc>
-	<image:title>360%20slim-360slim-ver-video-completo.jpeg</image:title>
+	<image:title>360 slim-360slim-ver-video-completo.jpeg</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/botao-verde-quero-emagrecer-26300217000100.png</image:loc>
-	<image:title>botao%20verde-quero-emagrecer-26300217000100</image:title>
+	<image:title>botao verde-quero-emagrecer-26300217000100</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/selo-seguro-naturfive-360slim-26300217000100.png</image:loc>
-	<image:title>selo%20seguro-naturfive-360slim-26300217000100</image:title>
+	<image:title>selo seguro-naturfive-360slim-26300217000100</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/</image:loc>
@@ -350,36 +354,36 @@
 </url>
 <url>
 	<loc>https://naturfive.com/amora-care/</loc>
-	<lastmod>2021-04-09</lastmod>
+	<lastmod>2021-08-25</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
 	<image:loc>https://naturfive.com/img/amora-care-amora-miura-naturfive-26300217000100.png</image:loc>
-	<image:title>amora%20care-amora-miura-naturfive-26300217000100</image:title>
+	<image:title>amora care-amora-miura-naturfive-26300217000100</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/depoimento-amora-care-video.jpeg</image:loc>
-	<image:title>depoimento%20amora-care-video.jpeg</image:title>
+	<image:title>depoimento amora-care-video.jpeg</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/Selos-Amora-Care-naturfive-26300217000100-min.png</image:loc>
-	<image:title>placeholder%20image</image:title>
+	<image:title>placeholder image</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/amora-care-01-unidade-naturfive-26300217000100.png</image:loc>
-	<image:title>placeholder%20image</image:title>
+	<image:title>placeholder image</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/amora-care-02-unidades-naturfive-26300217000100.png</image:loc>
-	<image:title>placeholder%20image</image:title>
+	<image:title>placeholder image</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/amora-care-03-unidades-naturfive-26300217000100.png</image:loc>
-	<image:title>placeholder%20image</image:title>
+	<image:title>placeholder image</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/clique-aqui-produto-amora-care-naturfive-compra-feita-26300217000100.jpeg</image:loc>
-	<image:title>clique%20aqui-produto-amora-care-naturfive-compra-feita-26300217000100.jpeg</image:title>
+	<image:title>clique aqui-produto-amora-care-naturfive-compra-feita-26300217000100.jpeg</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/</image:loc>
@@ -392,7 +396,7 @@
 </url>
 <url>
 	<loc>https://naturfive.com/mais/</loc>
-	<lastmod>2021-04-09</lastmod>
+	<lastmod>2021-08-25</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -406,7 +410,7 @@
 </url>
 <url>
 	<loc>https://naturfive.com/verao-shop/</loc>
-	<lastmod>2021-04-09</lastmod>
+	<lastmod>2021-08-25</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -420,12 +424,30 @@
 </url>
 <url>
 	<loc>https://naturfive.com/cha-21-ervas/</loc>
-	<lastmod>2021-04-09</lastmod>
+	<lastmod>2021-08-25</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
 	<image:loc>https://naturfive.com/img/cha-21-ervas-produto-promocao.png</image:loc>
 	<image:title>cha-21-ervas-produto-original</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://naturfive.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://naturfive.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://naturfive.com/sibutramin/</loc>
+	<lastmod>2021-08-25</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://naturfive.com/img/sibutramin-produto-original-min.png</image:loc>
+	<image:title>sibutramin produto-frete-gratis-min</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://naturfive.com/img/</image:loc>
