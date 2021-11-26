@@ -2,6 +2,9 @@ body {
     width: 480px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.marc{
+    border: black solid 1px;
+}
 .logoPesquisa {
     width: 150px;
     margin-right: 20px;
@@ -36,4 +39,16 @@ body {
 }
 .separar {
     
+}
+@media (max-width: 600px) {
+    .logoPesquisa {
+        width: 80px;
+        
+    }
+    .pesquisar{
+        
+        height: 40px;
+        width: 280px;
+        
+    }
 }
