@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main {
+    width: 750px;
+    margin: auto;
+}
+.heroanim > a img{
+    width: 100%;
+}
+.gradeProdutos {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.gradeProdutos a{
+    text-decoration: none;
+    
+}
+.produto{
+    margin: 3px;
+    border: rgb(232, 232, 232) solid 1px;
+    width: 240px;
+    text-align: center;
+    border-radius: 12px;
+    transition: 300ms;
+    
+}
+.produto h1{
+    position: absolute;
+    font-size: 15px;
+    margin: 15px;
+    padding: 5px;
+    background-color: #E3654A;
+    border-radius: 12px;
+    color: white;
+}
+.produto h2{
+    font-size: 16px;
+    width: 150px;
+    height: 80px;
+    margin: 12px auto;
+    
+}
+.produto button {
+    width: 120px;
+    padding: 5px;
+    margin: 10px;
+    border: #E3654A solid 1px;
+    border-radius: 3px;
+    background-color: rgba(210, 105, 30, 0);
+    cursor: pointer;
+    color: #E3654A;
+    transition: 200ms;
+}
+.produto button:hover{
+    background-color: #E3654A;
+    color: white;
+    
+}
+.precoVelho{
+    color: #E3654A;
+    font-weight: 700;
+    font-size: 15px;
+}
+.novoPreco{
+    margin: 2px;
+    color: rgb(40, 40, 40);
+}
+.novoPreco span {
+    font-size: 20px;
+    font-weight: 700;
+}
+.produto:hover{
+    margin-top: -5px;
+    box-shadow: rgba(50, 50, 50, 0.461) 0px 10px 15px 0px;
+}
+
+@media (max-width: 360px) {
+    main {
+        width: 360px;        
+    }
+    .heroanim > a img{
+        height: 170px;
+    }
+    
+}
