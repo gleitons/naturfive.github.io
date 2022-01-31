@@ -1,7 +1,10 @@
+//<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 function onliad() {
+    menuPrincipal()
     image1();
     //produtosID();
     produtosNatura()
+    //bodyP();
 }
 function menumob(){
     const menuMob = document.getElementById('idMenu');
@@ -12,7 +15,22 @@ function menumob(){
       }
          
 }
-
+function encurtarLink(urlE) {
+    const valor = urlE;
+    $.getJSON( "https://is.gd/create.php?callback=?", {
+      url: valor,
+      format: "json"
+  }).done(function( data ) {
+      novolink = data.shorturl;
+      console.log(novolink);
+  });
+    
+  }
+function bodyP() {
+    const li = "https://google.com";
+    const mos = toString(encurtarLink(li).value);
+    mostracon.innerHTML = `${mos}`
+}
       
 function produtosNatura() {
     var produtosNome = `[
@@ -20,6 +38,14 @@ function produtosNatura() {
             "image": "http://static.natura.com.br/static/www/img/promocoes/17500.jpg", 
             "nomeProduto": "NomedoProduto",
             "categoria":"ma",
+            "Preco":"80,00",            
+            "DescontoPorcento":"30",
+            "SoHoje": "0",
+            "link":"LinkAfiliado"},
+        {
+            "image": "http://static.natura.com.br/static/www/img/promocoes/17500.jpg", 
+            "nomeProduto": "NomedoProduto",
+            "categoria":"mq",
             "Preco":"80,00",            
             "DescontoPorcento":"30",
             "SoHoje": "0",
@@ -41,50 +67,87 @@ function produtosNatura() {
             "SoHoje": "0",
             "link":"LinkAfiliado"},
         {
-            "image": "linkImagem", 
+            "image": "http://static.natura.com.br/static/www/img/promocoes/80839.jpg", 
             "nomeProduto": "NomedoProduto",
-            "categoria":"ge",
-            "Preco": "24,50",
+            "categoria":"in",
+            "Preco":"24,50",
             "DescontoPorcento":"30",
-            "SoHoje": "1",
+            "SoHoje": "0",
             "link":"LinkAfiliado"}
 ]`;
     //const qtdProdutos = produtosN.length;
     
     const todosProdutos = JSON.parse(produtosNome);
-    
-   
     todosProdutos.forEach(function (DeProduto) {
+        
+        const linkC = encurtarLink(DeProduto.image);
+        
         const varDesconto = ((parseFloat(DeProduto.Preco) *100 ) / parseFloat(DeProduto.DescontoPorcento) / 2 ).toFixed(2);
-        //const MaxDesconto = 
-
-        if(DeProduto.SoHoje == 0){
-
-            document.getElementById('oqtem').innerHTML += `<a href="/natura.html">
-        <div class="produto" >
+        
+        const LocalizacaoPage = window.location.pathname;
+        if (LocalizacaoPage == "/natura.html") {
+                exibeProdutos = "oqtem";
+        } else if(LocalizacaoPage == "/maquiagem.html") {
+            exibeProdutos = "catMaquiagem";
+        } else if(LocalizacaoPage == "/feminina.html") {
+            exibeProdutos = "catFeminina";
+        } else if(LocalizacaoPage == "/masculina.html") {
+            exibeProdutos = "catMasculina";
+            categoriaP = "Masculina";
+        } else if(LocalizacaoPage == "/infantil.html") {
+            exibeProdutos = "catInfantil";
             
-            <img src="${DeProduto.image}" alt="">
+        } else{
+            exibeProdutos = "oqtem";
+        }
+        
+        
+        if (DeProduto.categoria == "ma") {
+            categoriaP = "Masculina";
+        } else if (DeProduto.categoria == "fe"){
+            categoriaP = "Feminina";
+        } else if (DeProduto.categoria == "in"){
+            categoriaP = "Infantil";
+        } else if (DeProduto.categoria == "mq"){
+            categoriaP = "Maquiagem";
+        } else {
+            categoriaP = "Geral";
+        };
+
+        // ${LocalizacaoPage}
+        // ${exibeProdutos}
+        
+        if(DeProduto.SoHoje == 0){
+        document.getElementById(`${exibeProdutos}`).innerHTML += `<a href="${DeProduto.link}" target="_blank">
+        <div class="produto" >            
+            <img src="${DeProduto.image}" alt="${DeProduto.nomeProduto} com desconto">
             <h2>${DeProduto.nomeProduto}</h2>
-            <p class="categoria">${DeProduto.categoria}</p>
+            <p class="categoria">${categoriaP}</p>
             <p class="precoVelho">De: <s >R$ ${varDesconto}</s></p>
             <p class="novoPreco">Por: <span>R$ ${DeProduto.Preco}</span></p>
             <button>Comprar</button>
+            <!--<p>${linkC}</p>-->
+            
         </div>
-    </a>`;
+    </a></br></br>`;
         } else {
-        document.getElementById('oqtem').innerHTML += `<a href="/natura.html">
+        document.getElementById('oqtem').innerHTML += `<a href="${DeProduto.link}" target="_blank">
         <div class="produto" >
             <h1>Só Hoje!</h1>
-            <img src="${DeProduto.image}" alt="">
+            <img src="${DeProduto.image}" alt="${DeProduto.nomeProduto} com desconto">
             <h2>${DeProduto.nomeProduto}</h2>
-            <p class="categoria">${DeProduto.categoria}</p>
+            <p class="categoria">${categoriaP}</p>
             <p class="precoVelho">De: <s >R$ ${varDesconto}</s></p>
             <p class="novoPreco">Por: <span>R$ ${DeProduto.Preco}</span></p>
             <button>Comprar</button>
+           
         </div>
-    </a>`;}
+    </a></br></br>`;}
     });
-    //alert('nada');
+    //alert({urll});
+    /*Categorias Abaixo */
+    /* Categoria Feminina */
+    
     
 
    
@@ -125,4 +188,20 @@ function preencheProduto(qp){
 }
 function contaProduto(qtdPruto) {
     return qtdPruto;
+}
+function menuPrincipal() {
+    document.getElementById('MenuPrincipal').innerHTML = `<div class="menuTop">
+            
+    <nav id="idMenu" class="opcoesMenu Dnone">
+        <li><a href="/natura.html">Inicio</a></li>
+        <li><a href="/maquiagem.html">Maquiagem</a></li>
+        <li><a href="/feminina.html">Feminina</a></li>
+        <li><a href="/masculina.html">Masculina</a></li>
+        <li><a href="/infantil.html">Infantil</a></li>
+        
+    </nav>
+    <a class="menuMobile" onclick="menumob()"><i class="bi  bi-list-ul" id="menum" ></i>
+    </a>    
+</div>`
+    
 }

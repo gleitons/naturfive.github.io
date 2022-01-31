@@ -1,38 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="natura.css">
-    <title>Natura Naturfive Produtos</title>
-</head>
-<body onload="onliad()">
-    <header class="bb">        
-        <div class="menuTop bb">
-            
-            <nav id="idMenu" class="opcoesMenu Dnone">
-                <li><a href="/natura.html">Inicio</a></li>
-                <li><a href="/maquiagem.html">Maquiagem</a></li>
-                <li><a href="/feminino.html">Feminino</a></li>
-                <li><a href="/masculino.html">Masculino</a></li>
-                <li><a href="/infantil.html">Infantil</a></li>
-                
-            </nav>
-            <a class="menuMobile" onclick="menumob()"><i class="bi  bi-list-ul" id="menum" ></i>
-            </a>
-            
-        </div>
-           
-    </header>
-    <main class="bb">
-        <div class="heroanim">
-            <a id="linkBanner">
-                <img id="bannerHero">
-            </a>
-        </div> 
-        <div class="gradeProdutos bb" id="Produtos">
+<div class="gradeProdutos bb" >
             <!-- <a href="/natura.html" target="_blank" rel="nofollow">
                 <div class="produto">
                     <h1>Só Hoje!</h1>
@@ -66,15 +32,11 @@
             </a> -->
 
         </div>
-        <div id="mostraContador"></div>
-        <div class="gradeProdutos">
 
-        </div>
-        <div class="gradeProdutos" id="oqtem"></div>
-    </main>
-    <footer class="bb">
-
-    </footer>
-    <script src="/natura.js"></script>
-</body>
-</html>
+        if (novolink !== undefined) {
+        console.log(novolink);
+	    newLink =  novolink;
+        }
+      else {        
+        newLink = "Erro ao gerar link";
+      }

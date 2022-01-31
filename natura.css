@@ -52,18 +52,23 @@ main {
 .gradeProdutos {
     display: inline-flex;
     flex-wrap: wrap;
+    height: fit-content;
+    overflow: hidden;
+    margin-bottom: 20px;
 }
 .gradeProdutos a{
     text-decoration: none;
     
 }
 .produto{
+    height: 400px;
     margin: 3px;
     border: rgb(232, 232, 232) solid 1px;
     width: 240px;
     text-align: center;
     border-radius: 12px;
-    transition: 300ms;
+    transition: 200ms;
+    margin-bottom: 10px;
     
 }
 .produto h1{
@@ -75,11 +80,16 @@ main {
     border-radius: 12px;
     color: white;
 }
+.categoria{
+    font-size: 12px;
+    color: rgb(97, 97, 97);
+}
 .produto h2{
     font-size: 16px;
     width: 150px;
     height: 80px;
     margin: 12px auto;
+    color: rgb(57, 57, 57);
     
 }
 .produto button {
@@ -129,10 +139,11 @@ main {
         
     }
     nav > li {
-        margin-right: 30px;
+        margin-right: 10px;
         background-color: #E3654A;
         border-radius: 8px;
         padding: 10px;
+        margin-left: 5px;
     }
     nav li a {
         color: white;
@@ -162,6 +173,7 @@ main {
         width: 160px;
         justify-content: space-between;
         margin-left: 12px;
+        height: 350px;
         
     }
     .produto img {
