@@ -50,6 +50,42 @@ function bodyP() {
 function produtosNatura() {
     var produtosNome = `[
         {
+            "image": "https://static.natura.com/cdn/ff/kxD1A4LhUp7PtwaPceXqglgUH2-om-CfqfFAKtqMjk0/1642996431/public/products/68944_1_30.jpg", 
+            "nomeProduto": "Kriska Shock Desodorante Colônia",
+            "categoria":"fe",
+            "Preco":"63,50",  
+            "codigo":"68944",           
+            "DescontoPorcento":"30",
+            "SoHoje": "1",
+            "link":"https://is.gd/PPVZXk"},
+        {
+            "image": "https://static.natura.com/cdn/ff/CC6AbvGfQvRWIbjjIajQuBS-4Zi7bP0HqmSLz8maqkM/1643665811/public/products/71600_1_17.jpg", 
+            "nomeProduto": "Biografia Desodorante Colônia Feminino",
+            "categoria":"fe",
+            "Preco":"82,90",  
+            "codigo":"71600",           
+            "DescontoPorcento":"30",
+            "SoHoje": "1",
+            "link":"https://is.gd/Fdh5Is"},
+        {
+            "image": "https://static.natura.com/cdn/ff/Xr_X7DXf0S_4AJxBn0-UauDaVxU5_YwDa59wswpAjqo/1643665838/public/products/43135_1_2.jpg", 
+            "nomeProduto": "Una Infinito Deo Parfum",
+            "categoria":"fe",
+            "Preco":"169,90",  
+            "codigo":"43135",           
+            "DescontoPorcento":"30",
+            "SoHoje": "0",
+            "link":"https://is.gd/JOzPmB"},
+        {
+            "image": "https://static.natura.com/cdn/ff/a4l4Vt4cuv65TE-nuyI7eAIulseQzH9AtJ9sj8tAapk/1643664607/public/products/76421_1_21.jpg", 
+            "nomeProduto": "Essencial Deo Parfum Feminino",
+            "categoria":"fe",
+            "Preco":"124,90",  
+            "codigo":"76421",           
+            "DescontoPorcento":"30",
+            "SoHoje": "0",
+            "link":"https://is.gd/2KSw2h"},
+        {
             "image": "https://static.natura.com/cdn/ff/xzrGt-DmkOcWgksG-KYjOSNTVJ95bvfXFn2QrcHxxQg/1642996300/public/products/102422_1_2.jpg", 
             "nomeProduto": "Humor Liberta Desodorante Colônia",
             "categoria":"hu",
@@ -77,23 +113,23 @@ function produtosNatura() {
             "SoHoje": "1",
             "link":"https://is.gd/LnGp9c"},
         {
-            "image": "http://static.natura.com.br/static/www/img/promocoes/80839.jpg", 
-            "nomeProduto": "NomedoProduto",
-            "categoria":"in",
-            "Preco":"24,50",
+            "image": "https://static.natura.com/cdn/ff/m0QdDCV9ofJv8qiMDjTNqOuzuKxqinnQk8KThaPFRuU/1643735477/public/products/76420_1_2.jpg", 
+            "nomeProduto": "Essencial Deo Parfum Masculino",
+            "categoria":"ma",
+            "Preco":"124,90",
             "codigo":"5544",      
             "DescontoPorcento":"30",
-            "SoHoje": "0",
-            "link":"https://is.gd/czJH4q"},
+            "SoHoje": "1",
+            "link":"https://is.gd/VOn5Wr"},
         {
-            "image": "http://static.natura.com.br/static/www/img/promocoes/80839.jpg", 
-            "nomeProduto": "NomedoProduto",
-            "categoria":"in",
-            "Preco":"24,50",
-            "codigo":"1212",      
+            "image": "https://static.natura.com/cdn/ff/WPX9yTbz-vx_BNQC-yFLozbpngNsDWcnaPLzRnSz-AI/1643735433/public/products/22557_1_3.jpg", 
+            "nomeProduto": "Kaiak Aventura Desodorante Colônia Masculino",
+            "categoria":"ma",
+            "Preco":"63,45",
+            "codigo":"22557",      
             "DescontoPorcento":"30",
-            "SoHoje": "0",
-            "link":"https://is.gd/czJH4q"}
+            "SoHoje": "1",
+            "link":"https://is.gd/67Nx9n"}
 ]`;
     //const qtdProdutos = produtosN.length;
     
@@ -148,11 +184,9 @@ function produtosNatura() {
             <p class="categoria">${categoriaP}</p>
             <p class="precoVelho">De: <s >R$ ${varDesconto}</s></p>
             <p class="novoPreco">Por: <span>R$ ${DeProduto.Preco}</span></p>
-            <button>Comprar</button>
-            
-           
+            <button>Comprar</button>           
         </div>
-    </a></br></br>`;}
+    </a>`;}
     });
 
 
@@ -169,7 +203,10 @@ function produtosNatura() {
     /* Categoria Feminina */
     
     
-    return produtosNome;
+
+    
+    
+    
    
 }
 function categoriaFemininas() {
