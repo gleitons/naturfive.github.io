@@ -100,10 +100,8 @@ function produtosNatura() {
     const todosProdutos = JSON.parse(produtosNome);
     todosProdutos.forEach(function (DeProduto) {
         
-        const linkC = encurtarLink(DeProduto.image);
-        //console.log(typeof linkC);
         
-
+        const linkC = encurtarLink(DeProduto.image);
         const varDesconto = ((parseFloat(DeProduto.Preco) *100 ) / parseFloat(DeProduto.DescontoPorcento) / 2 ).toFixed(2);
         
         //const LocalizacaoPage = window.location.pathname;
@@ -156,14 +154,31 @@ function produtosNatura() {
         </div>
     </a></br></br>`;}
     });
+
+
+
+    
+        //console.log(typeof linkC);
+       
+        
+
+
+
     //alert({urll});
     /*Categorias Abaixo */
     /* Categoria Feminina */
     
     
-
+    return produtosNome;
    
 }
+function categoriaFemininas() {
+    document.getElementById('catFeminina').innerHTML = produtosNatura(2);
+    
+}
+
+
+
 function image1() {
     document.getElementById('bannerHero').src = "/natura/infantil.jpg";
     setTimeout("image2()", 4000);
