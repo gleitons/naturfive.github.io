@@ -8,12 +8,17 @@
 .DBlock {
     display: block;
 }
+
 .DFlex {
     display: flex;
     align-items: center;
     border-bottom: black solid 1px;
     box-shadow: rgba(0, 0, 0, 0.447) 0px 2px 1px;
     margin-bottom: 10px;
+
+}
+.DFlex img{
+    width: 200px;
 }
 header {
     width: 750px;
@@ -99,6 +104,10 @@ main {
     color: rgb(57, 57, 57);
     
 }
+.produto img {
+    width: 100%;
+    height: 185px;
+}
 .produto button {
     width: 120px;
     padding: 5px;
@@ -180,7 +189,7 @@ main {
         width: 160px;
         justify-content: space-between;
         margin-left: 12px;
-        height: 350px;
+        height: 380px;
         
     }
     .produto img {
@@ -196,7 +205,8 @@ main {
         color: white;
     }
     .produto h2{
-        color: rgb(53, 53, 53);
+        height: 50px;
+        font-size: 12px;
         
     }
     .produto button {
@@ -211,8 +221,7 @@ main {
         transition: 200ms;
     }
     .produto button:hover{
-        background-color: #E3654A;
-        color: white;
+        box-shadow: none;
         
     }
     .precoVelho{

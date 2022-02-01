@@ -29,7 +29,8 @@ function encurtarLink(urlE) {
       linkCurto = data.shorturl;
       if (linkCurto !== undefined) {
           document.getElementById('ImagemDoProduto').innerHTML += `<div class="miniaturaProduto DFlex">
-          <img src="${valor}" alt="imagem min"> <p>${linkCurto}</p>
+          <img src="${valor}" alt="imagem min"> 
+          <p>${linkCurto}</p>
       </div>linkCurto`; 
       } else {
         document.getElementById('ImagemDoProduto').innerHTML = "Erro ao criar link"
@@ -49,23 +50,23 @@ function bodyP() {
 function produtosNatura() {
     var produtosNome = `[
         {
-            "image": "http://static.natura.com.br/static/www/img/promocoes/17500.jpg", 
-            "nomeProduto": "NomedoProduto",
-            "categoria":"ma",
-            "Preco":"80,00",  
-            "codigo":"8516",           
+            "image": "https://static.natura.com/cdn/ff/xzrGt-DmkOcWgksG-KYjOSNTVJ95bvfXFn2QrcHxxQg/1642996300/public/products/102422_1_2.jpg", 
+            "nomeProduto": "Humor Liberta Desodorante Colônia",
+            "categoria":"hu",
+            "Preco":"22,90",  
+            "codigo":"2791",           
             "DescontoPorcento":"30",
             "SoHoje": "0",
-            "link":"https://is.gd/czJH4q"},
+            "link":"https://is.gd/6FZhb8"},
         {
-            "image": "http://static.natura.com.br/static/www/img/promocoes/17500.jpg", 
-            "nomeProduto": "NomedoProduto",
-            "categoria":"mq",
+            "image": "https://static.natura.com/cdn/ff/cVTmPdxNIk0ytBIzhHwKb5Ifd00aUsw9y2zkCNUBSe4/1642996349/public/products/2791_1_2.jpg", 
+            "nomeProduto": "Refil Creme Desodorante Nutritivo para o Corpo Tododia Tâmara e Canela",
+            "categoria":"TODODIA",
             "Preco":"80,00",  
             "codigo":"1855",                
             "DescontoPorcento":"30",
             "SoHoje": "0",
-            "link":"https://is.gd/czJH4q"},
+            "link":"https://is.gd/TDqhLM"},
         {
             "image": "http://static.natura.com.br/static/www/img/promocoes/16869.jpg", 
             "nomeProduto": "Perfume Natura Ekos Frescor Buriti 150ml",
@@ -105,23 +106,10 @@ function produtosNatura() {
 
         const varDesconto = ((parseFloat(DeProduto.Preco) *100 ) / parseFloat(DeProduto.DescontoPorcento) / 2 ).toFixed(2);
         
-        const LocalizacaoPage = window.location.pathname;
-        if (LocalizacaoPage == "/natura.html") {
-                exibeProdutos = "oqtem";
-        } else if(LocalizacaoPage == "/maquiagem.html") {
-            exibeProdutos = "catMaquiagem";
-        } else if(LocalizacaoPage == "/feminina.html") {
-            exibeProdutos = "catFeminina";
-        } else if(LocalizacaoPage == "/masculina.html") {
-            exibeProdutos = "catMasculina";
-            categoriaP = "Masculina";
-        } else if(LocalizacaoPage == "/infantil.html") {
-            exibeProdutos = "catInfantil";
-            
-        } else{
-            exibeProdutos = "oqtem";
-        }
+        //const LocalizacaoPage = window.location.pathname;
         
+        //const catProdutoName = DeProduto.categoria;
+        const exibeProdutos = 'oqtem'
         
         if (DeProduto.categoria == "ma") {
             categoriaP = "Masculina";
@@ -130,9 +118,11 @@ function produtosNatura() {
         } else if (DeProduto.categoria == "in"){
             categoriaP = "Infantil";
         } else if (DeProduto.categoria == "mq"){
-            categoriaP = "Maquiagem";
-        } else {
-            categoriaP = "Geral";
+            categoriaP = "Maquiagem";                   
+        } else if (DeProduto.categoria == "hu"){
+            categoriaP = "Humor";                   
+        }else {
+            categoriaP = `${DeProduto.categoria}`;    
         };
 
         // ${LocalizacaoPage}
@@ -147,7 +137,7 @@ function produtosNatura() {
             <p class="precoVelho">De: <s >R$ ${varDesconto}</s></p>
             <p class="novoPreco">Por: <span>R$ ${DeProduto.Preco}</span></p>
             <button>Comprar</button>
-            <!--<p>${linkC}</p>-->
+           
             
         </div>
     </a></br></br>`;
@@ -161,6 +151,7 @@ function produtosNatura() {
             <p class="precoVelho">De: <s >R$ ${varDesconto}</s></p>
             <p class="novoPreco">Por: <span>R$ ${DeProduto.Preco}</span></p>
             <button>Comprar</button>
+            
            
         </div>
     </a></br></br>`;}
@@ -176,12 +167,12 @@ function produtosNatura() {
 function image1() {
     document.getElementById('bannerHero').src = "/natura/infantil.jpg";
     setTimeout("image2()", 4000);
-    document.getElementById('linkBanner').href = "/produtos/index.html";
+    document.getElementById('linkBanner').href = "https://www.natura.com.br/consultoria/naturfive";
 }
 function image2(){
     document.getElementById('bannerHero').src = "/natura/presente.jpg";
     setTimeout("image1()", 4000);
-    document.getElementById('linkBanner').href = "/contato/index.html";
+    document.getElementById('linkBanner').href = "https://www.natura.com.br/consultoria/naturfive";
 }
 function produtosID() {
     Produtos.innerHTML = `<a href="/natura.html" target="_blank" rel="nofollow">
