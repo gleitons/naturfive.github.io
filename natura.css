@@ -211,13 +211,14 @@ main {
         display: none;
     }
 
-    .produto{
+    .produto {
         width: 160px;
         justify-content: space-between;
         margin-left: 12px;
         height: 380px;
         
     }
+    
     .produto img {
         width: 100%;
     }
@@ -246,10 +247,7 @@ main {
         color: #E3654A;
         transition: 200ms;
     }
-    .produto button:hover{
-        box-shadow: none;
-        
-    }
+    
     .precoVelho{
         color: #E3654A;
         font-weight: 700;
@@ -265,7 +263,7 @@ main {
     }
     .produto:hover{
         margin-top: -5px;
-        box-shadow: rgba(50, 50, 50, 0.461) 0px 10px 15px 0px;
+        box-shadow: none;
     }
     footer{
         width: 360px;
