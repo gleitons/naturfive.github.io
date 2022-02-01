@@ -8,6 +8,13 @@
 .DBlock {
     display: block;
 }
+.DFlex {
+    display: flex;
+    align-items: center;
+    border-bottom: black solid 1px;
+    box-shadow: rgba(0, 0, 0, 0.447) 0px 2px 1px;
+    margin-bottom: 10px;
+}
 header {
     width: 750px;
     text-align: center;

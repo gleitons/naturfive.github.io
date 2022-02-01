@@ -5,6 +5,10 @@ function onliad() {
     //produtosID();
     produtosNatura()
     //bodyP();
+    
+}
+function links(){
+    produtosNatura()
 }
 function menumob(){
     const menuMob = document.getElementById('idMenu');
@@ -15,17 +19,27 @@ function menumob(){
       }
          
 }
+
 function encurtarLink(urlE) {
     const valor = urlE;
     $.getJSON( "https://is.gd/create.php?callback=?", {
       url: valor,
       format: "json"
   }).done(function( data ) {
-      novolink = data.shorturl;
-      console.log(novolink);
-  });
+      linkCurto = data.shorturl;
+      if (linkCurto !== undefined) {
+          document.getElementById('ImagemDoProduto').innerHTML += `<div class="miniaturaProduto DFlex">
+          <img src="${valor}" alt="imagem min"> <p>${linkCurto}</p>
+      </div>linkCurto`; 
+      } else {
+        document.getElementById('ImagemDoProduto').innerHTML = "Erro ao criar link"
+      }
+      
+      
+  })
     
   }
+
 function bodyP() {
     const li = "https://google.com";
     const mos = toString(encurtarLink(li).value);
@@ -38,42 +52,47 @@ function produtosNatura() {
             "image": "http://static.natura.com.br/static/www/img/promocoes/17500.jpg", 
             "nomeProduto": "NomedoProduto",
             "categoria":"ma",
-            "Preco":"80,00",            
+            "Preco":"80,00",  
+            "codigo":"8516",           
             "DescontoPorcento":"30",
             "SoHoje": "0",
-            "link":"LinkAfiliado"},
+            "link":"https://is.gd/czJH4q"},
         {
             "image": "http://static.natura.com.br/static/www/img/promocoes/17500.jpg", 
             "nomeProduto": "NomedoProduto",
             "categoria":"mq",
-            "Preco":"80,00",            
+            "Preco":"80,00",  
+            "codigo":"1855",                
             "DescontoPorcento":"30",
             "SoHoje": "0",
-            "link":"LinkAfiliado"},
+            "link":"https://is.gd/czJH4q"},
         {
             "image": "http://static.natura.com.br/static/www/img/promocoes/16869.jpg", 
             "nomeProduto": "Perfume Natura Ekos Frescor Buriti 150ml",
             "categoria":"fe",
             "Preco":"49,90",
+            "codigo":"4545",      
             "DescontoPorcento":"40",
             "SoHoje": "1",
-            "link":"LinkAfiliado"},
+            "link":"https://is.gd/LnGp9c"},
         {
             "image": "http://static.natura.com.br/static/www/img/promocoes/80839.jpg", 
             "nomeProduto": "NomedoProduto",
             "categoria":"in",
             "Preco":"24,50",
+            "codigo":"5544",      
             "DescontoPorcento":"30",
             "SoHoje": "0",
-            "link":"LinkAfiliado"},
+            "link":"https://is.gd/czJH4q"},
         {
             "image": "http://static.natura.com.br/static/www/img/promocoes/80839.jpg", 
             "nomeProduto": "NomedoProduto",
             "categoria":"in",
             "Preco":"24,50",
+            "codigo":"1212",      
             "DescontoPorcento":"30",
             "SoHoje": "0",
-            "link":"LinkAfiliado"}
+            "link":"https://is.gd/czJH4q"}
 ]`;
     //const qtdProdutos = produtosN.length;
     
@@ -81,7 +100,9 @@ function produtosNatura() {
     todosProdutos.forEach(function (DeProduto) {
         
         const linkC = encurtarLink(DeProduto.image);
+        //console.log(typeof linkC);
         
+
         const varDesconto = ((parseFloat(DeProduto.Preco) *100 ) / parseFloat(DeProduto.DescontoPorcento) / 2 ).toFixed(2);
         
         const LocalizacaoPage = window.location.pathname;
@@ -116,9 +137,9 @@ function produtosNatura() {
 
         // ${LocalizacaoPage}
         // ${exibeProdutos}
-        
+        //const linkImagemC = document.getElementById('ImagemDoProduto');
         if(DeProduto.SoHoje == 0){
-        document.getElementById(`${exibeProdutos}`).innerHTML += `<a href="${DeProduto.link}" target="_blank">
+        document.getElementById(`${exibeProdutos}`).innerHTML += `<a href="https://api.whatsapp.com/send?phone=5538999533296&text=Olá, gostaria de comprar o produto *${DeProduto.nomeProduto}*\n código ${DeProduto.codigo}\n a imagem do produto é esta: \n${DeProduto.link}" target="_blank">
         <div class="produto" >            
             <img src="${DeProduto.image}" alt="${DeProduto.nomeProduto} com desconto">
             <h2>${DeProduto.nomeProduto}</h2>
@@ -131,7 +152,7 @@ function produtosNatura() {
         </div>
     </a></br></br>`;
         } else {
-        document.getElementById('oqtem').innerHTML += `<a href="${DeProduto.link}" target="_blank">
+        document.getElementById(`${exibeProdutos}`).innerHTML += `<a href="https://api.whatsapp.com/send?phone=5538999533296&text=Olá, gostaria de comprar o produto *${DeProduto.nomeProduto}*\n código ${DeProduto.codigo}\n a imagem do produto é esta: \n${DeProduto.link}" target="_blank">
         <div class="produto" >
             <h1>Só Hoje!</h1>
             <img src="${DeProduto.image}" alt="${DeProduto.nomeProduto} com desconto">
