@@ -50,6 +50,15 @@ function bodyP() {
 function produtosNatura() {
     var produtosNome = `[
         {
+            "image": "https://static.natura.com/cdn/ff/GD52GkhgFFclGC9lNoEMaKX-MhOr_26In1JfxzfGXaY/1643735467/public/products/53255_1_44.jpg", 
+            "nomeProduto": "Natura Homem Desodorante Colônia",
+            "categoria":"ma",
+            "Preco":"79,90",  
+            "codigo":"53255",           
+            "DescontoPorcento":"30",
+            "SoHoje": "1",
+            "link":"https://is.gd/TqMg64"},
+        {
             "image": "https://static.natura.com/cdn/ff/kxD1A4LhUp7PtwaPceXqglgUH2-om-CfqfFAKtqMjk0/1642996431/public/products/68944_1_30.jpg", 
             "nomeProduto": "Kriska Shock Desodorante Colônia",
             "categoria":"fe",
@@ -158,11 +167,28 @@ function produtosNatura() {
         }else {
             categoriaP = `${DeProduto.categoria}`;    
         };
-
+        
+        const valoT = parseFloat(DeProduto.Preco);
+        
+        if (valoT <= 40 ) {
+            qtdParcela = DeProduto.Preco;
+            qtdX = "À vista em 1x de"
+        } else if (valoT >= 41 && valoT <= 70) {
+            qtdParcela = (valoT /1.95).toFixed(2,2);
+            qtdX = "À vista ou em até <strong>2x de</strong>"
+        } else if (valoT >= 71 && valoT <= 100) {
+            qtdParcela = (valoT /2.95).toFixed(2,2);
+            qtdX = "À vista ou em até <strong>3x de</strong>"
+        } else {
+            qtdParcela = (valoT /3.95).toFixed(2,2);
+            qtdX = "À vista ou em até <strong>4x de</strong>"
+        }
+          //  qtdParcelaReal =  qtdParcela.replace('.' ,',')
         // ${LocalizacaoPage}
         // ${exibeProdutos}
         //const linkImagemC = document.getElementById('ImagemDoProduto');
         if(DeProduto.SoHoje == 0){
+            qtdParcelaReal =  qtdParcela.replace('.' ,',');
         document.getElementById(`${exibeProdutos}`).innerHTML += `<a href="https://api.whatsapp.com/send?phone=5538999533296&text=Olá, gostaria de comprar o produto *${DeProduto.nomeProduto}*\n código ${DeProduto.codigo}\n a imagem do produto é esta: \n${DeProduto.link}" target="_blank">
         <div class="produto" >            
             <img src="${DeProduto.image}" alt="${DeProduto.nomeProduto} com desconto">
@@ -170,12 +196,14 @@ function produtosNatura() {
             <p class="categoria">${categoriaP}</p>
             <p class="precoVelho">De: <s >R$ ${varDesconto}</s></p>
             <p class="novoPreco">Por: <span>R$ ${DeProduto.Preco}</span></p>
+            <p class="parcel">${qtdX} <span>R$ ${qtdParcelaReal}</span>.</p>
             <button>Comprar</button>
            
             
         </div>
     </a></br></br>`;
         } else {
+        qtdParcelaReal =  qtdParcela.replace('.' ,',');
         document.getElementById(`${exibeProdutos}`).innerHTML += `<a href="https://api.whatsapp.com/send?phone=5538999533296&text=Olá, gostaria de comprar o produto *${DeProduto.nomeProduto}*\n código ${DeProduto.codigo}\n a imagem do produto é esta: \n${DeProduto.link}" target="_blank">
         <div class="produto" >
             <h1>Só Hoje!</h1>
@@ -184,6 +212,7 @@ function produtosNatura() {
             <p class="categoria">${categoriaP}</p>
             <p class="precoVelho">De: <s >R$ ${varDesconto}</s></p>
             <p class="novoPreco">Por: <span>R$ ${DeProduto.Preco}</span></p>
+            <p class="parcel">${qtdX} R$ <span>${qtdParcelaReal}</span>.</p>
             <button>Comprar</button>           
         </div>
     </a>`;}
