@@ -43,3 +43,9 @@
 
 
       https://api.whatsapp.com/send?phone=5538999533296&text=Ol%C3%A1%20gostaria%20de%20comprar%20o%20produto%20%2F%2F%2F%2F%2C%20o%20c%C3%B3digo%20dele%20%C3%A9%20%2F%2F%2F%2F%2F%2C%20a%20imagem%20do%20produto%20%C3%A9%20essa%20%2F%2F%2F%2F
+
+
+      const valor = urlE;
+    const likMPago = `https://api.whatsapp.com/send?phone=5538999533296&text=Olá, acabei de adquirir o produto *${nomeP}*\n código ${codigoP}, R$ ${precoP}, Gostaria de receber o produto o mais breve possível, segue informações de entrega -\n Nome Completo:\n Rua:\n Nº:\n Bairro:\n Cidade:\n CEP:\n`
+    const lMercaP =  linkMercadoPago(likMPago);
+    $.getJSON( "https://is.gd/create.php?callback=?", {

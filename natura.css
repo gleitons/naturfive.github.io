@@ -8,7 +8,13 @@
 .DBlock {
     display: block;
 }
-
+.flex {
+    display: flex;
+}
+#linkMP{
+    margin-left: 20px;
+    margin-right: 20px;
+}
 .DFlex {
     display: flex;
     align-items: center;

@@ -21,8 +21,10 @@ function menumob(){
          
 }
 
-function encurtarLink(urlE) {
+function encurtarLink(urlE, nomeP, codigoP, precoP) {
     const valor = urlE;
+    const likMPago = `https://api.whatsapp.com/send?phone=5538999533296&text=Ol%C3%A1,%20acabei%20de%20adquirir%20o%20produto%20*${nomeP}*%20c%C3%B3digo%20${codigoP},%20R$%20${precoP},%20Gostaria%20de%20receber%20o%20produto%20o%20mais%20breve%20poss%C3%ADvel,%20segue%20informa%C3%A7%C3%B5es%20de%20entrega%20-%20Nome%20Completo:%20Rua:%20N%C2%BA:%20Bairro:%20Cidade:%20CEP:`;
+    lMercaP =  linkMercadoPago(likMPago);
     $.getJSON( "https://is.gd/create.php?callback=?", {
       url: valor,
       format: "json"
@@ -32,9 +34,35 @@ function encurtarLink(urlE) {
           document.getElementById('ImagemDoProduto').innerHTML += `<div class="miniaturaProduto DFlex">
           <img src="${valor}" alt="imagem min"> 
           <p>${linkCurto}</p>
-      </div>linkCurto`; 
+          <div id="linkMP">Link MercadoPago</div>  
+          <div>
+            <a href="${likMPago}" target="_blank">Copiar Link</a></div>
+          </div>
+      `; 
       } else {
         document.getElementById('ImagemDoProduto').innerHTML = "Erro ao criar link"
+      }
+      
+      
+  })
+    
+  }
+  function linkMercadoPago(lMP) {
+    const valor = lMP;
+    $.getJSON( "https://is.gd/create.php?callback=?", {
+      url: valor,
+      format: "json"
+  }).done(function( data ) {
+      linkCurto = data.shorturl;
+      if (linkCurto !== undefined) {
+        document.getElementById('LinMP').innerHTML += `  
+        <div>
+          <a href="${linkCurto}" target="_blank">Link</a></div>
+        </div>
+    `; 
+      ; 
+      } else {
+        document.getElementById('LinMP').innerHTML = "Erro ao criar link"
       }
       
       
@@ -56,7 +84,7 @@ function produtosNatura() {
     todosProdutos.forEach(function (DeProduto) {
         
         
-        const linkC = encurtarLink(DeProduto.image);
+        const linkC = encurtarLink(DeProduto.image, DeProduto.nomeProduto, DeProduto.codigo, DeProduto.Preco);
         const varDesconto = ((parseFloat(DeProduto.Preco) *100 ) / parseFloat(DeProduto.DescontoPorcento) / 2 ).toFixed(2);
         
         //const LocalizacaoPage = window.location.pathname;
@@ -114,7 +142,7 @@ function produtosNatura() {
     </a></br></br>`;
         } else {
         qtdParcelaReal =  qtdParcela.replace('.' ,',');
-        document.getElementById(`${exibeProdutos}`).innerHTML += `<a href="https://api.whatsapp.com/send?phone=5538999533296&text=Olá, gostaria de comprar o produto *${DeProduto.nomeProduto}*\n código ${DeProduto.codigo}\n a imagem do produto é esta: \n${DeProduto.link}" target="_blank">
+        document.getElementById(`${exibeProdutos}`).innerHTML += `<a href="https://api.whatsapp.com/send?phone=5538999533296&text=Olá, gostaria de comprar o produto *${DeProduto.nomeProduto}*\n código ${DeProduto.codigo}, R$ ${valoT},  a imagem do produto é esta: \n${DeProduto.link}" target="_blank">
         <div class="produto" >
             <h1>Só Hoje!</h1>
             <img src="${DeProduto.image}" alt="${DeProduto.nomeProduto} com desconto">
