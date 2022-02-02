@@ -9,7 +9,7 @@ function  naturaOnline(){
             "DescontoPorcento":"30",
             "SoHoje": "1",
             "link":"https://is.gd/TqMg64",
-            "linkPagamento":"https://is.gd/TqMg64"},
+            "linkPagamento":"https://mpago.la/1KWovMA"},
         {
             "image": "https://static.natura.com/cdn/ff/kxD1A4LhUp7PtwaPceXqglgUH2-om-CfqfFAKtqMjk0/1642996431/public/products/68944_1_30.jpg", 
             "nomeProduto": "Kriska Shock Desodorante Colônia",

@@ -23,7 +23,8 @@ function menumob(){
 
 function encurtarLink(urlE, nomeP, codigoP, precoP) {
     const valor = urlE;
-    const likMPago = `https://api.whatsapp.com/send?phone=5538999533296&text=Ol%C3%A1,%20acabei%20de%20adquirir%20o%20produto%20*${nomeP}*%20c%C3%B3digo%20${codigoP},%20R$%20${precoP},%20Gostaria%20de%20receber%20o%20produto%20o%20mais%20breve%20poss%C3%ADvel,%20segue%20informa%C3%A7%C3%B5es%20de%20entrega%20-%20Nome%20Completo:%20Rua:%20N%C2%BA:%20Bairro:%20Cidade:%20CEP:`;
+    const likMPago = `https://api.whatsapp.com/send?phone=5538999533296&text=Ol%C3%A1,%20*acabei%20de%20adquirir*%20o%20produto%20*${nomeP}*%20c%C3%B3digo%20${codigoP},%20R$%20${precoP},%20Gostaria%20de%20receber%20o%20produto%20o%20mais%20breve%20poss%C3%ADvel,%20segue%20informa%C3%A7%C3%B5es%20de%20entrega%20-%20Nome%20Completo:%20Rua:%20N%C2%BA:%20Bairro:%20Cidade:%20CEP:`;
+    const linkAguardando = `https://api.whatsapp.com/send?phone=5538999533296&text=Ol%C3%A1,%20estou%20*aguardando%20comprovacao%20de%20pagamento*%20do%20produto%20*${nomeP}*%20c%C3%B3digo%20${codigoP},%20R$%20${precoP},%20Gostaria%20de%20receber%20o%20produto%20o%20mais%20breve%20poss%C3%ADvel,%20segue%20informa%C3%A7%C3%B5es%20de%20entrega%20-%20Nome%20Completo:%20Rua:%20N%C2%BA:%20Bairro:%20Cidade:%20CEP:`;
     lMercaP =  linkMercadoPago(likMPago);
     $.getJSON( "https://is.gd/create.php?callback=?", {
       url: valor,
@@ -34,10 +35,12 @@ function encurtarLink(urlE, nomeP, codigoP, precoP) {
           document.getElementById('ImagemDoProduto').innerHTML += `<div class="miniaturaProduto DFlex">
           <img src="${valor}" alt="imagem min"> 
           <p>${linkCurto}</p>
-          <div id="linkMP">Link MercadoPago</div>  
+          <div id="linkMP">${nomeP}</div>  
           <div>
-            <a href="${likMPago}" target="_blank">Copiar Link</a></div>
+            <a style="margin: 10px;" href="${likMPago}" target="_blank">Completo</a></div>
+            <a href="${linkAguardando}" target="_blank">Aguardando</a></div>
           </div>
+          
       `; 
       } else {
         document.getElementById('ImagemDoProduto').innerHTML = "Erro ao criar link"
@@ -106,7 +109,7 @@ function produtosNatura() {
             categoriaP = `${DeProduto.categoria}`;    
         };
         
-        const valoT = parseFloat(DeProduto.Preco);
+        const valoT = parseFloat(DeProduto.Preco).toFixed(2,2);
         
         if (valoT <= 40 ) {
             qtdParcela = DeProduto.Preco;
@@ -121,13 +124,13 @@ function produtosNatura() {
             qtdParcela = (valoT /3.95).toFixed(2,2);
             qtdX = "À vista ou em até <strong>4x de</strong>"
         }
-          //  qtdParcelaReal =  qtdParcela.replace('.' ,',')
+        const precoProduto = DeProduto.Preco;
         // ${LocalizacaoPage}
         // ${exibeProdutos}
         //const linkImagemC = document.getElementById('ImagemDoProduto');
         if(DeProduto.SoHoje == 0){
             qtdParcelaReal =  qtdParcela.replace('.' ,',');
-        document.getElementById(`${exibeProdutos}`).innerHTML += `<a href="https://api.whatsapp.com/send?phone=5538999533296&text=Olá, gostaria de comprar o produto *${DeProduto.nomeProduto}*\n código ${DeProduto.codigo}\n a imagem do produto é esta: \n${DeProduto.link}" target="_blank">
+        document.getElementById(`${exibeProdutos}`).innerHTML += `<a href="https://api.whatsapp.com/send?phone=5538999533296&text=Olá, gostaria de comprar o produto *${DeProduto.nomeProduto}*\n código ${DeProduto.codigo}, R$ ${precoProduto},\n a imagem do produto é esta: \n${DeProduto.link} \n- para *COMPRAR AGORA*, basta clicar aqui ${DeProduto.linkPagamento}" target="_blank">
         <div class="produto" >            
             <img src="${DeProduto.image}" alt="${DeProduto.nomeProduto} com desconto">
             <h2>${DeProduto.nomeProduto}</h2>
@@ -142,7 +145,7 @@ function produtosNatura() {
     </a></br></br>`;
         } else {
         qtdParcelaReal =  qtdParcela.replace('.' ,',');
-        document.getElementById(`${exibeProdutos}`).innerHTML += `<a href="https://api.whatsapp.com/send?phone=5538999533296&text=Olá, gostaria de comprar o produto *${DeProduto.nomeProduto}*\n código ${DeProduto.codigo}, R$ ${valoT},  a imagem do produto é esta: \n${DeProduto.link}" target="_blank">
+        document.getElementById(`${exibeProdutos}`).innerHTML += `<a href="https://api.whatsapp.com/send?phone=5538999533296&text=Olá, gostaria de comprar o produto *${DeProduto.nomeProduto}*\n código ${DeProduto.codigo}, R$ ${precoProduto},  a imagem do produto é esta: \n${DeProduto.link} \n- para *COMPRAR AGORA*, basta clicar aqui ${DeProduto.linkPagamento}" target="_blank">
         <div class="produto" >
             <h1>Só Hoje!</h1>
             <img src="${DeProduto.image}" alt="${DeProduto.nomeProduto} com desconto">
