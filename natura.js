@@ -199,12 +199,12 @@ function categoriaFemininas() {
 
 
 function image1() {
-    document.getElementById('bannerHero').src = "/natura/infantil.jpg";
+    document.getElementById('bannerHero').src = "/imagens-naturfive/bebe-naturfive.jpeg";
     setTimeout("image2()", 4000);
     document.getElementById('linkBanner').href = "https://www.natura.com.br/consultoria/naturfive";
 }
 function image2(){
-    document.getElementById('bannerHero').src = "/natura/presente.jpg";
+    document.getElementById('bannerHero').src = "/imagens-naturfive/infantil-naturfive.jpeg";
     setTimeout("image1()", 4000);
     document.getElementById('linkBanner').href = "https://www.natura.com.br/consultoria/naturfive";
 }
@@ -234,20 +234,4 @@ function preencheProduto(qp){
 }
 function contaProduto(qtdPruto) {
     return qtdPruto;
-}
-function menuPrincipal() {
-    document.getElementById('MenuPrincipal').innerHTML = `<div class="menuTop">
-            
-    <nav id="idMenu" class="opcoesMenu Dnone">
-        <li><a href="/natura.html">Inicio</a></li>
-        <li><a href="/maquiagem.html">Maquiagem</a></li>
-        <li><a href="/feminina.html">Feminina</a></li>
-        <li><a href="/masculina.html">Masculina</a></li>
-        <li><a href="/infantil.html">Infantil</a></li>
-        
-    </nav>
-    <a class="menuMobile" onclick="menumob()"><i class="bi  bi-list-ul" id="menum" ></i>
-    </a>    
-</div>`
-    
 }
