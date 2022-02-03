@@ -1,4 +1,5 @@
 function menuPrincipal() {
+    
     document.getElementById('MenuPrincipal').innerHTML = `<div class="menuTop">
             
     <nav id="idMenu" class="opcoesMenu Dnone">
@@ -13,5 +14,6 @@ function menuPrincipal() {
     <a class="menuMobile" onclick="menumob()"><i class="bi  bi-list-ul" id="menum" ></i>
     </a>    
 </div>`
+
     
 }

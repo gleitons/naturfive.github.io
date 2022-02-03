@@ -1,4 +1,5 @@
 function  naturaOnline(){
+    
     return `[
         {
             "image": "https://static.natura.com/cdn/ff/eqygDP9Yrk6wcqO518fAvHttRMFXZiHNiuhCs6UqzDE/1643827883/public/products/102115_1_14.jpg", 
@@ -120,6 +121,8 @@ function  naturaOnline(){
             "SoHoje": "1",
             "link":"https://is.gd/67Nx9n",
             "linkPagamento":"https://is.gd/TqMg64"}
-]`;
+]`
+;
+
 
 }

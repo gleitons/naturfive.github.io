@@ -8,20 +8,24 @@
     <link rel="stylesheet" href="natura.css">
     <title>Natura Naturfive Produtos</title>
 </head>
-<body onload="produtosNatura()">
+<body id="bodyNatura" onload="produtosNatura()">
     <header class="bb">  
-        <div id="MenuPrincipal">     
-        </div>        
+        <div id="MenuPrincipal">  
+            <img src="/imagens-naturfive/menut.jpg" alt="">   
+        </div>          
     </header>
     <main class="bb">
+        <div class="promohero">
+            <a  id="heroPromo" target="_blank">
+                <img id="imagePromo" src="/imagens-naturfive/carregando-promocao.svg" alt="promoção do dia">
+            </a>
+        </div>  
+        <div class="gradeProdutos" id="oqtem"></div>
         <div class="heroanim">
             <a id="linkBanner">
                 <img id="bannerHero">
             </a>
         </div> 
-        
-        
-        <div class="gradeProdutos" id="oqtem"></div>
     </main>
     <footer class="bb">
         
@@ -30,6 +34,7 @@
     </footer>
     <script src="/categoria.js"></script>
     <script src="/produtosnaturaonline.js"></script>
+    <script src="/slides.js"></script>
     <script src="/menu.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
