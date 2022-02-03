@@ -1,6 +1,26 @@
 function  naturaOnline(){
     return `[
         {
+            "image": "https://static.natura.com/cdn/ff/eqygDP9Yrk6wcqO518fAvHttRMFXZiHNiuhCs6UqzDE/1643827883/public/products/102115_1_14.jpg", 
+            "nomeProduto": "BB Cream FPS 15 Faces",
+            "categoria":"mq",
+            "Preco":"29,90",  
+            "codigo":"102115",           
+            "DescontoPorcento":"30",
+            "SoHoje": "1",
+            "link":"https://is.gd/Ji7qmp",
+            "linkPagamento":"https://mpago.la/2spYV7h"},
+        {
+            "image": "https://static.natura.com/cdn/ff/QiWuy4XMUnQnM7uLrgaQUwj4tftELKHAdavi8c2YFjo/1643826696/public/products/92795_1_12.jpg", 
+            "nomeProduto": "Sabonete Mamãe e Bebê",
+            "categoria":"in",
+            "Preco":"29,90",  
+            "codigo":"92795",           
+            "DescontoPorcento":"30",
+            "SoHoje": "1",
+            "link":"https://is.gd/GGjLGq",
+            "linkPagamento":"https://mpago.la/1J2FrQf"},
+        {
             "image": "https://static.natura.com/cdn/ff/GD52GkhgFFclGC9lNoEMaKX-MhOr_26In1JfxzfGXaY/1643735467/public/products/53255_1_44.jpg", 
             "nomeProduto": "Natura Homem Desodorante Colônia",
             "categoria":"ma",
@@ -63,7 +83,7 @@ function  naturaOnline(){
         {
             "image": "https://static.natura.com/cdn/ff/cVTmPdxNIk0ytBIzhHwKb5Ifd00aUsw9y2zkCNUBSe4/1642996349/public/products/2791_1_2.jpg", 
             "nomeProduto": "Refil Creme Desodorante Nutritivo para o Corpo Tododia Tâmara e Canela",
-            "categoria":"TODODIA",
+            "categoria":"pe",
             "Preco":"22,90",  
             "codigo":"2791",                
             "DescontoPorcento":"30",

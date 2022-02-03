@@ -128,7 +128,19 @@ function produtosNatura() {
         // ${LocalizacaoPage}
         // ${exibeProdutos}
         //const linkImagemC = document.getElementById('ImagemDoProduto');
-        if(DeProduto.SoHoje == 0){
+        
+        
+        const freteSoHojePromo = (Math.random() * 3).toFixed(0,2);
+        if (freteSoHojePromo == 0) {
+            promo = `<h1>Só Hoje!</h1>`
+        } else if (freteSoHojePromo == 1) {
+            promo = `<h1 style="background-color: rgb(0, 182, 0);">Promoção</h1>`
+        } else {
+            promo = `<h1 style="background-color: rgb(2, 158, 242);">Frete Grátis</h1>`
+        }
+        const randomSoHoje = Math.random(1 * 1).toFixed();
+        console.log(freteSoHojePromo)
+        if(randomSoHoje == 0){
             qtdParcelaReal =  qtdParcela.replace('.' ,',');
         document.getElementById(`${exibeProdutos}`).innerHTML += `<a href="https://api.whatsapp.com/send?phone=5538999533296&text=Olá, gostaria de comprar o produto *${DeProduto.nomeProduto}*\n código ${DeProduto.codigo}, R$ ${precoProduto},\n a imagem do produto é esta: \n${DeProduto.link} \n- para *COMPRAR AGORA*, basta clicar aqui ${DeProduto.linkPagamento}" target="_blank">
         <div class="produto" >            
@@ -147,7 +159,7 @@ function produtosNatura() {
         qtdParcelaReal =  qtdParcela.replace('.' ,',');
         document.getElementById(`${exibeProdutos}`).innerHTML += `<a href="https://api.whatsapp.com/send?phone=5538999533296&text=Olá, gostaria de comprar o produto *${DeProduto.nomeProduto}*\n código ${DeProduto.codigo}, R$ ${precoProduto},  a imagem do produto é esta: \n${DeProduto.link} \n- para *COMPRAR AGORA*, basta clicar aqui ${DeProduto.linkPagamento}" target="_blank">
         <div class="produto" >
-            <h1>Só Hoje!</h1>
+            ${promo}
             <img src="${DeProduto.image}" alt="${DeProduto.nomeProduto} com desconto">
             <h2>${DeProduto.nomeProduto}</h2>
             <p class="categoria">${categoriaP}</p>
