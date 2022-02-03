@@ -3,6 +3,7 @@ function onliad() {
     menuPrincipal()
     image1();
     //produtosID();
+    slidesBody();
     produtosNatura()
     //bodyP();
     
