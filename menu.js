@@ -1,6 +1,10 @@
 function menuPrincipal() {
     
-    document.getElementById('MenuPrincipal').innerHTML = `<div class="menuTop">
+    document.getElementById('MenuPrincipal').innerHTML = `
+    <div class="logoOn">
+            <a href="/"><img src="https://www.naturfive.com/img/logo-naturfive-naturfive.png" alt="Logo naturfive natura Online"></a>
+    </div>
+    <div class="menuTop">
             
     <nav id="idMenu" class="opcoesMenu Dnone">
         <li><a href="/natura.html">Inicio</a></li>

@@ -1,6 +1,7 @@
 function slidesBody() {
     const aleBanner = (Math.random() * 6).toFixed(0,1);
    
+    
     if (aleBanner == 1) {
         bannerPromo1();
     } else if (aleBanner == 2){

@@ -95,6 +95,13 @@ main {
     border-left: rgba(159, 159, 159, 0.55) solid 2px;
     border-right: rgba(159, 159, 159, 0.632) solid 2px;
 }
+.logoOn{
+    min-height: 0px;
+}
+.logoOn > a img{
+    padding: 5px;
+    width: 200px;
+}
 .promohero > a img{
     max-width: 100%;
     min-height: 250px;
@@ -107,6 +114,7 @@ main {
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
+
 .promohero > a img:hover{
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
