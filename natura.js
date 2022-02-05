@@ -91,9 +91,7 @@ function produtosNatura() {
         const linkC = encurtarLink(DeProduto.image, DeProduto.nomeProduto, DeProduto.codigo, DeProduto.Preco);
         const varDesconto = ((parseFloat(DeProduto.Preco) *100 ) / parseFloat(DeProduto.DescontoPorcento) / 2 ).toFixed(2);
         
-        //const LocalizacaoPage = window.location.pathname;
-        
-        //const catProdutoName = DeProduto.categoria;
+        // document.getElementById('buscaProdutos').innerHTML += `<li nome="${DeProduto.nomeProduto}">${DeProduto.nomeProduto}</li>`
         const exibeProdutos = 'oqtem'
         
         if (DeProduto.categoria == "ma") {
@@ -141,35 +139,44 @@ function produtosNatura() {
         }
         const randomSoHoje = Math.random(1 * 1).toFixed();
         console.log(freteSoHojePromo)
+        // const sSeach = document.getElementById('searchProdutos').innerHTML = `
+        // <div id="searchProdutos">
+        // <div nome="ma">ma</div>
+        // <div nome="ba">ba</div>
+        // <div nome="be">be</div>
+        // </div>  `  
+        
         if(randomSoHoje == 0){
             qtdParcelaReal =  qtdParcela.replace('.' ,',');
-        document.getElementById(`${exibeProdutos}`).innerHTML += `<a href="https://api.whatsapp.com/send?phone=5538999533296&text=Olá, gostaria de comprar o produto *${DeProduto.nomeProduto}*\n código ${DeProduto.codigo}, R$ ${precoProduto},\n a imagem do produto é esta: \n${DeProduto.link} \n- para *COMPRAR AGORA*, basta clicar aqui ${DeProduto.linkPagamento}" target="_blank">
-        <div class="produto" >            
-            <img src="${DeProduto.image}" alt="${DeProduto.nomeProduto} com desconto">
-            <h2>${DeProduto.nomeProduto}</h2>
-            <p class="categoria">${categoriaP}</p>
-            <p class="precoVelho">De: <s >R$ ${varDesconto}</s></p>
-            <p class="novoPreco">Por: <span>R$ ${DeProduto.Preco}</span></p>
-            <p class="parcel">${qtdX} <span>R$ ${qtdParcelaReal}</span>.</p>
-            <button>Comprar</button>
-           
-            
-        </div>
-    </a></br></br>`;
+        document.getElementById(`${exibeProdutos}`).innerHTML += `<div nome="${DeProduto.nomeProduto} ${DeProduto.codigo}">
+            <a href="https://api.whatsapp.com/send?phone=5538999533296&text=Olá, gostaria de comprar o produto *${DeProduto.nomeProduto}*\n código ${DeProduto.codigo}, R$ ${precoProduto},\n a imagem do produto é esta: \n${DeProduto.link} \n- para *COMPRAR AGORA*, basta clicar aqui ${DeProduto.linkPagamento}" target="_blank">
+            <div class="produto" >
+                <img src="${DeProduto.image}" alt="${DeProduto.nomeProduto} com desconto">
+                <h2>${DeProduto.nomeProduto}</h2>
+                <p class="categoria">${categoriaP}</p>
+                <p class="precoVelho">De: <s >R$ ${varDesconto}</s></p>
+                <p class="novoPreco">Por: <span>R$ ${DeProduto.Preco}</span></p>
+                <p class="parcel">${qtdX} <span>R$ ${qtdParcelaReal}</span>.</p>
+                <button>Comprar</button>  
+            </div>
+                </a>
+                </div>`;
         } else {
         qtdParcelaReal =  qtdParcela.replace('.' ,',');
-        document.getElementById(`${exibeProdutos}`).innerHTML += `<a href="https://api.whatsapp.com/send?phone=5538999533296&text=Olá, gostaria de comprar o produto *${DeProduto.nomeProduto}*\n código ${DeProduto.codigo}, R$ ${precoProduto},  a imagem do produto é esta: \n${DeProduto.link} \n- para *COMPRAR AGORA*, basta clicar aqui ${DeProduto.linkPagamento}" target="_blank">
-        <div class="produto" >
-            ${promo}
-            <img src="${DeProduto.image}" alt="${DeProduto.nomeProduto} com desconto">
-            <h2>${DeProduto.nomeProduto}</h2>
-            <p class="categoria">${categoriaP}</p>
-            <p class="precoVelho">De: <s >R$ ${varDesconto}</s></p>
-            <p class="novoPreco">Por: <span>R$ ${DeProduto.Preco}</span></p>
-            <p class="parcel">${qtdX} R$ <span>${qtdParcelaReal}</span>.</p>
-            <button>Comprar</button>           
-        </div>
-    </a>`;}
+        document.getElementById(`${exibeProdutos}`).innerHTML += `<div nome="${DeProduto.nomeProduto} ${DeProduto.codigo}">
+            <a  href="https://api.whatsapp.com/send?phone=5538999533296&text=Olá, gostaria de comprar o produto *${DeProduto.nomeProduto}*\n código ${DeProduto.codigo}, R$ ${precoProduto},  a imagem do produto é esta: \n${DeProduto.link} \n- para *COMPRAR AGORA*, basta clicar aqui ${DeProduto.linkPagamento}" target="_blank">
+            <div class="produto" >
+                ${promo}
+                <img src="${DeProduto.image}" alt="${DeProduto.nomeProduto} com desconto">
+                <h2>${DeProduto.nomeProduto}</h2>
+                <p class="categoria">${categoriaP}</p>
+                <p class="precoVelho">De: <s >R$ ${varDesconto}</s></p>
+                <p class="novoPreco">Por: <span>R$ ${DeProduto.Preco}</span></p>
+                <p class="parcel">${qtdX} R$ <span>${qtdParcelaReal}</span>.</p>
+                <button>Comprar</button>
+            </div>
+                </a>
+        </div>`;}
     });
 
 

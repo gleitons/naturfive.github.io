@@ -49,3 +49,7 @@
     const likMPago = `https://api.whatsapp.com/send?phone=5538999533296&text=Olá, acabei de adquirir o produto *${nomeP}*\n código ${codigoP}, R$ ${precoP}, Gostaria de receber o produto o mais breve possível, segue informações de entrega -\n Nome Completo:\n Rua:\n Nº:\n Bairro:\n Cidade:\n CEP:\n`
     const lMercaP =  linkMercadoPago(likMPago);
     $.getJSON( "https://is.gd/create.php?callback=?", {
+
+
+        <script src="sistema_de_busca.js</script>
+    <script src="https://hatatori.github.io/search-engine-system/sistema_de_busca.js></script>

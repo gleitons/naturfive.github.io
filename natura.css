@@ -102,6 +102,28 @@ main {
     padding: 5px;
     width: 200px;
 }
+.buscaNatur{
+    border: black solid 1px;    
+    padding: 10px 0px 10px 20px;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 4px;
+}
+.buscN {
+    display: flex;
+}
+.buscN > div {
+    padding-top: 5px;
+}
+.buscN input{
+    margin-left: 5px;
+    width: 100%;
+    height: 30px;
+    border: none;
+}
+.buscN input:enabled{
+    border: none;
+}
 .promohero > a img{
     max-width: 100%;
     min-height: 250px;
