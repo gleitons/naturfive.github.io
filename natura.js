@@ -33,13 +33,14 @@ function encurtarLink(urlE, nomeP, codigoP, precoP) {
   }).done(function( data ) {
       linkCurto = data.shorturl;
       if (linkCurto !== undefined) {
-          document.getElementById('ImagemDoProduto').innerHTML += `<div class="miniaturaProduto DFlex">
+          document.getElementById('ImagemDoProduto').innerHTML += `<div nome="${nomeP} ${codigoP}" class="miniaturaProduto DFlex">
           <img src="${valor}" alt="imagem min"> 
           <p>${linkCurto}</p>
           <div id="linkMP">${nomeP}</div>  
           <div>
             <a style="margin: 10px;" href="${likMPago}" target="_blank">Completo</a></div>
-            <a href="${linkAguardando}" target="_blank">Aguardando</a></div>
+            <a href="${linkAguardando}" target="_blank">Aguardando</a>
+          </div>
           </div>
           
       `; 
