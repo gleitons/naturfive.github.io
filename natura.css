@@ -353,6 +353,9 @@ main {
         color: #E3654A;
         transition: 200ms;
     }
+    .buscaNatur {
+        display: none;
+    }
     
     .precoVelho{
         color: #E3654A;
