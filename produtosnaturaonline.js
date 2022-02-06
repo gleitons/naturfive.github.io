@@ -1,6 +1,29 @@
 function  naturaOnline(){
     
     return `[
+        
+        {
+            "image": "https://static.natura.com/cdn/ff/3K7paEnoz67u6An0h7FOy_Cacytp9F7GbjFFOEt_eD8/1643897475/public/products/76424_1_20.jpg", 
+            "nomeProduto": "Essencial Oud Deo Parfum Masculino",
+            "categoria":"ma",
+            "Preco":"124,90",  
+            "codigo":"76424 - Essencial Oud Masculino - 100 ml",           
+            "DescontoPorcento":"30",
+            "SoHoje": "1",
+            "link":"https://is.gd/I8rQyJ",
+            "linkPagamento":"https://mpago.la/2cPA8tD",
+            "txMercadolivre":"6,23"},
+        {
+            "image": "https://static.natura.com/cdn/ff/bqrqLohLdCD_2p9ZhanM6yKDR6z2YH3bV9Oc-3FCx4Q/1643905204/public/products/115901_1_2.jpg", 
+            "nomeProduto": "Kit Kaiak Pulso Desodorante Colônia Masculino",
+            "categoria":"ma",
+            "Preco":"134,90",  
+            "codigo":"115901 - Kit Kaiak Pulso Desodorante Colônia Masculino",           
+            "DescontoPorcento":"30",
+            "SoHoje": "1",
+            "link":"https://is.gd/OtQ4dW",
+            "linkPagamento":"https://mpago.la/2STnLo1",
+            "txMercadolivre":"6,73"},
         {
             "image": "https://static.natura.com/cdn/ff/eqygDP9Yrk6wcqO518fAvHttRMFXZiHNiuhCs6UqzDE/1643827883/public/products/102115_1_14.jpg", 
             "nomeProduto": "BB Cream FPS 15 Faces",

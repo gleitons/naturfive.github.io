@@ -12,6 +12,7 @@ body {
     background-size: cover;
 }
 
+
 .DBlock {
     display: block;
 }
@@ -34,7 +35,7 @@ body {
     width: 200px;
 }
 header {
-    width: 750px;
+    width: 1000px;
     text-align: center;
     margin: auto;    
 }
@@ -78,7 +79,7 @@ nav li a:hover{
 main {
     min-height: 92.6vh;
     background-color: white;
-    width: 750px;
+    width: 1000px;
     margin: auto;
 }
 .heroanim > a img{
@@ -147,6 +148,7 @@ main {
     
 }
 .gradeProdutos {
+    padding: 8px;
     display: inline-flex;
     flex-wrap: wrap;
     height: fit-content;

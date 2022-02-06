@@ -146,7 +146,7 @@ function produtosNatura() {
         console.log(freteSoHojePromo)
         if(randomSoHoje == 0){
                 qtdParcelaReal =  qtdParcela.replace('.' ,',');
-            document.getElementById(`${exibeProdutos}`).innerHTML += `<div nome="${DeProduto.nomeProduto} ${DeProduto.codigo}>
+            document.getElementById(`${exibeProdutos}`).innerHTML += `<a nome="${DeProduto.nomeProduto} ${DeProduto.codigo}>
                 <a " href="https://api.whatsapp.com/send?phone=5538999533296&text=Olá, gostaria de comprar o produto *${DeProduto.nomeProduto}*\n código ${DeProduto.codigo}, R$ ${precoProduto},\n a imagem do produto é esta: \n${DeProduto.link} \n- para *COMPRAR AGORA*, basta clicar aqui ${DeProduto.linkPagamento}" target="_blank">
                 <div class="produto" >
                     <img src="${DeProduto.image}" alt="${DeProduto.nomeProduto} com desconto">
@@ -159,12 +159,12 @@ function produtosNatura() {
                 
                 
                 
-                </div>
+                </a>
                         </a>
             </div>`;
             } else {
             qtdParcelaReal =  qtdParcela.replace('.' ,',');
-            document.getElementById(`${exibeProdutos}`).innerHTML += `<li nome="${DeProduto.nomeProduto} ${DeProduto.codigo}">
+            document.getElementById(`${exibeProdutos}`).innerHTML += `<a nome="${DeProduto.nomeProduto} ${DeProduto.codigo}">
                 <a href="https://api.whatsapp.com/send?phone=5538999533296&text=Olá, gostaria de comprar o produto *${DeProduto.nomeProduto}*\n código ${DeProduto.codigo}, R$ ${precoProduto},  a imagem do produto é esta: \n${DeProduto.link} \n- para *COMPRAR AGORA*, basta clicar aqui ${DeProduto.linkPagamento}" target="_blank">
                 <div class="produto" >
                     ${promo}
@@ -177,7 +177,7 @@ function produtosNatura() {
                     <button>Comprar</button>
                 </div>
                         </a>
-            </li>`;}
+            </a>`;}
 
 
 

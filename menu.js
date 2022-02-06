@@ -7,7 +7,7 @@ function menuPrincipal() {
     <div class="menuTop">
             
     <nav id="idMenu" class="opcoesMenu Dnone">
-        <li><a href="/natura.html">Inicio</a></li>
+        <li><a href="/">Inicio</a></li>
         <li><a href="/corpo-e-banho.html">Corpo</a></li>
         <li><a href="/maquiagem.html">Maquiagem</a></li>
         <li><a href="/feminina.html">Feminina</a></li>
