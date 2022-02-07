@@ -71,8 +71,10 @@ function bodyP() {
 }
       
 function produtosNatura() {
+    anunciosTopoI()
     menuPrincipal()
     image1();
+
     slidesBody();
     
     var produtosNome = naturaOnline();
@@ -234,4 +236,43 @@ function preencheProduto(qp){
 }
 function contaProduto(qtdPruto) {
     return qtdPruto;
+}
+
+function fecharAnuncioImportante() {
+    const pegaX = document.getElementById('anuncioImportante');
+    pegaX.addEventListener('click', function(){
+        pegaX.classList.add('displayn');
+    })
+}
+function anunciosTopoI() {
+    const ranD = (Math.random() * 2).toFixed(0,1);
+    console.log(ranD)
+    if (ranD == 0) {
+        document.getElementById('anuncioImportante').innerHTML = `<div class="anunImp">
+        <div>
+            <p>Tenho um desconto especial pra você acima R$100</p>
+            <p><strong>FRETE GRÁTIS</strong> acima de R$49</p>
+            <a href="https://api.whatsapp.com/send?phone=5538999533296&text=Ol%C3%A1,%20gostaria%20de%20comprar%20o%20produto%20alguns%20produtos%20natura!%20Poderia%20me%20ajudar?" target="_blank"><button>Converse comigo!</button></a>
+        </div>
+        <i onclick="fecharAnuncioImportante()" class="bi bi-x-lg"></i>
+    </div>`
+    } else if(ranD == 1) {
+        document.getElementById('anuncioImportante').innerHTML =`<div class="anunImp">
+        <div>
+            <p><strong>FRETE GRÁTIS</strong> acima de R$49</p>
+            
+        </div>
+        <i onclick="fecharAnuncioImportante()" class="bi bi-x-lg"></i>
+    </div>
+
+   `
+    } else {
+        document.getElementById('anuncioImportante').innerHTML =`<div class="anunImp">
+        <div>                
+            <a href="https://api.whatsapp.com/send?phone=5538999533296&text=Ol%C3%A1,%20gostaria%20de%20comprar%20o%20produto%20alguns%20produtos%20natura!%20Poderia%20me%20ajudar?" target="_blank"><button>Converse comigo!</button></a>
+            <p>Tenho um desconto especial pra você!</p>
+        </div>
+        <i onclick="fecharAnuncioImportante()" class="bi bi-x-lg"></i>
+    </div>`
+    }
 }

@@ -71,3 +71,11 @@ function bannerPromo6() {
     
     return (imgFundo, linkF, imgP)
 }
+function bannerPromo7() {
+    const urlR = "https://static.natura.com/cdn/ff/X2xnM5J9QNjhlS6HFFfbS-jVGgyErriJK7UuZmZdJnA/1643060748/public/styles/banner_full_desktop/public/2022-01/essencial-supreme-feminino-desk.jpg?itok=WsFWGHBN"
+    const imgFundo = document.getElementById('bodyNatura').style.backgroundImage = `url(${urlR})`
+    const linkF = document.getElementById('heroPromo').href = "https://www.natura.com.br/consultoria/naturfive"
+    const imgP = document.getElementById('imagePromo').src = `${urlR}`
+    
+    return (imgFundo, linkF, imgP)
+}

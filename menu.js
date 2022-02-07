@@ -1,5 +1,6 @@
 function menuPrincipal() {
     
+    
     document.getElementById('MenuPrincipal').innerHTML = `
     <div class="logoOn">
             <a href="/"><img src="https://www.naturfive.com/img/logo-naturfive-naturfive.png" alt="Logo naturfive natura Online"></a>

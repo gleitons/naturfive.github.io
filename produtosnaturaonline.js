@@ -1,6 +1,19 @@
 function  naturaOnline(){
     
     return `[
+        {
+            "image": "https://cf.shopee.com.br/file/ad1241042e1c6cfd0901f44841174d03", 
+            "nomeProduto": "Gostaria de ver o catálogo Natura Online",
+            "categoria":"catálago",
+            "Preco":"0,00",  
+            "codigo":"Produtos variados",           
+            "DescontoPorcento":"30",
+            "SoHoje": "1",
+            "link":"https://natura.com.vc/03_co_mg-nqs7x",
+            "linkPagamento":"https://natura.com.vc/03_co_mg-nqs7x",
+            "txMercadolivre":"6,23"},
+
+            
         
         {
             "image": "https://static.natura.com/cdn/ff/3K7paEnoz67u6An0h7FOy_Cacytp9F7GbjFFOEt_eD8/1643897475/public/products/76424_1_20.jpg", 
