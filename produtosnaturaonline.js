@@ -14,8 +14,32 @@ function  naturaOnline(){
             "txMercadolivre":"6,23"},
 
             
-        
         {
+            
+            "image": "https://static.natura.com/cdn/ff/upapSeMD4oL6MDdr6_xJ6R1Kq8fSnt3wM3W9v19K7xg/1644238858/public/products/59313_1_14.jpg", 
+            "nomeProduto": "Primer Blur Una",
+            "categoria":"mq",
+            "Preco":"52,90",  
+            "codigo":"59313 - Primer Blur Una - 30 ml",           
+            "DescontoPorcento":"30",
+            "SoHoje": "1",
+            "link":"https://is.gd/F4TfIW",
+            "linkPagamento":"https://mpago.la/2gecLzp",
+            "txMercadolivre":"2,64"},
+        {
+            
+            "image": "https://static.natura.com/cdn/ff/upapSeMD4oL6MDdr6_xJ6R1Kq8fSnt3wM3W9v19K7xg/1644238858/public/products/59313_1_14.jpg", 
+            "nomeProduto": "Primer Blur Una",
+            "categoria":"mq",
+            "Preco":"52,90",  
+            "codigo":"59313 - Primer Blur Una - 30 ml",           
+            "DescontoPorcento":"30",
+            "SoHoje": "1",
+            "link":"https://is.gd/F4TfIW",
+            "linkPagamento":"https://mpago.la/2gecLzp",
+            "txMercadolivre":"2,64"},
+        {
+            
             "image": "https://static.natura.com/cdn/ff/3K7paEnoz67u6An0h7FOy_Cacytp9F7GbjFFOEt_eD8/1643897475/public/products/76424_1_20.jpg", 
             "nomeProduto": "Essencial Oud Deo Parfum Masculino",
             "categoria":"ma",
