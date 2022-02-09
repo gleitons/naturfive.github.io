@@ -16,16 +16,16 @@ function  naturaOnline(){
             
         {
             
-            "image": "https://static.natura.com/cdn/ff/upapSeMD4oL6MDdr6_xJ6R1Kq8fSnt3wM3W9v19K7xg/1644238858/public/products/59313_1_14.jpg", 
-            "nomeProduto": "Primer Blur Una",
-            "categoria":"mq",
-            "Preco":"52,90",  
-            "codigo":"59313 - Primer Blur Una - 30 ml",           
+            "image": "https://static.natura.com/cdn/ff/DMc1L9rvvEKEaDSloPmferMjQItQDIy6gLtaAni4WBc/1644278436/public/products/57525_1_13.jpg", 
+            "nomeProduto": "K Deo Parfum Masculino",
+            "categoria":"ma",
+            "Preco":"157,90",  
+            "codigo":"57525 - K - 100 ml",           
             "DescontoPorcento":"30",
             "SoHoje": "1",
-            "link":"https://is.gd/F4TfIW",
-            "linkPagamento":"https://mpago.la/2gecLzp",
-            "txMercadolivre":"2,64"},
+            "link":"https://is.gd/Jxbm3G",
+            "linkPagamento":"https://mpago.la/1KBgKjB",
+            "txMercadolivre":"https://www.natura.com.br/p/k-100-ml/57525?listTitle=manual%20showcase%20-%20novidades%20e%20ofertas%20imperd%C3%ADveis%20%F0%9F%91%87&list_position=6&consultoria=naturfive"},
         {
             
             "image": "https://static.natura.com/cdn/ff/upapSeMD4oL6MDdr6_xJ6R1Kq8fSnt3wM3W9v19K7xg/1644238858/public/products/59313_1_14.jpg", 
