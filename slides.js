@@ -1,3 +1,4 @@
+var consultor = "?consultoria=naturfive"
 function slidesBody() {
     const aleBanner = (Math.random() * 6).toFixed(0,1);
    
@@ -24,17 +25,17 @@ function backgroundB() {
 }
 
 function bannerPromo1() {
-    const urlR = "https://static.natura.com/cdn/ff/WxKfZSgFKOSvAZTXm04eQgvxsp81uw4zzq3AefwJiRw/1642603843/public/styles/banner_full_desktop/public/2022-01/ekos-tukuma-novidades-desk.jpg?itok=146UfBEq"
+    const urlR = "https://static.natura.com/cdn/ff/fii265E3jvD-Oh0TYE-3Hk_D-e2TmNsbvif3Qf6dwes/1644524379/public/styles/banner_full_desktop/public/2022-02/1920x695_v1_essencial.jpg?itok=ZkvD2JId"
     const imgFundo = document.getElementById('bodyNatura').style.backgroundImage = `url(${urlR})`
-    const linkF = document.getElementById('heroPromo').href = "https://www.natura.com.br/consultoria/naturfive"
+    const linkF = document.getElementById('heroPromo').href = `https://www.natura.com.br/a-casa-de-perfumaria-do-brasil?consultoria=naturfive&iprom_creative=lp_conheca_acasadeperfumariadobrasil&iprom_id=home_bannerprincipal&iprom_name=destaque1_desejotemcheiro_cpb_10022022&iprom_pos=4`
     const imgP = document.getElementById('imagePromo').src = `${urlR}`
     
     return (imgFundo, linkF, imgP)
 }
 function bannerPromo2() {
-    const urlR = "https://static.natura.com/cdn/ff/ZECm0O2diLkw0zXixnj1Q8POBR6TUWxl891qy_BFUHY/1643060748/public/styles/banner_full_desktop/public/2022-01/humor-liberta-desk_2.jpg?itok=vsBnvc_4"
+    const urlR = "https://static.natura.com/cdn/ff/tAWFyt8HxtZjLQUf8EtW9CswTLmyiBDtKrS0nEA63kM/1644938071/public/styles/banner_full_desktop/public/2022-02/1920x500-cat_0.jpg?itok=Vy4ZIS5B"
     const imgFundo = document.getElementById('bodyNatura').style.backgroundImage = `url(${urlR})`
-    const linkF = document.getElementById('heroPromo').href = "https://www.natura.com.br/consultoria/naturfive"
+    const linkF = document.getElementById('heroPromo').href = "https://www.natura.com.br/c/semana-especial?consultoria=naturfive&iprom_creative=cat_euquero_semanaespecial&iprom_id=home_bannerprincipal&iprom_name=destaque1_liquida-perfumaria_14022022&iprom_pos=2"
     const imgP = document.getElementById('imagePromo').src = `${urlR}`
     
     return (imgFundo, linkF, imgP)
@@ -48,9 +49,9 @@ function bannerPromo3() {
     return (imgFundo, linkF, imgP)
 }
 function bannerPromo4() {
-    const urlR = "https://static.natura.com/cdn/ff/LnwnJMeki-ZhiDL4Jw_ZwaW6rF0q_gB4dKDTapEEs68/1643061017/public/styles/banner_full_desktop/public/2022-01/essencial-refil-mask-desk_2.jpg?itok=x8yDn1Bg"
+    const urlR = "https://static.natura.com/cdn/ff/nxUPcPSteuv63ixr9ervJy971FZb6hP0Pbt0XtWKjSs/1644595263/public/styles/banner_full_desktop/public/2022-02/1920x695-Home-Desk_0.jpg?itok=UqtnN75-"
     const imgFundo = document.getElementById('bodyNatura').style.backgroundImage = `url(${urlR})`
-    const linkF = document.getElementById('heroPromo').href = "https://www.natura.com.br/consultoria/naturfive"
+    const linkF = document.getElementById('heroPromo').href = "https://www.natura.com.br/una?consultoria=naturfive&iprom_creative=lp_conheca_una&iprom_id=home_bannerprincipal&iprom_name=destaque1_una_meuvermelho_ajustado_11022022&iprom_pos=1"
     const imgP = document.getElementById('imagePromo').src = `${urlR}`
     
     return (imgFundo, linkF, imgP)
@@ -64,9 +65,9 @@ function bannerPromo5() {
     return (imgFundo, linkF, imgP)
 }
 function bannerPromo6() {
-    const urlR = "https://static.natura.com/cdn/ff/X2xnM5J9QNjhlS6HFFfbS-jVGgyErriJK7UuZmZdJnA/1643060748/public/styles/banner_full_desktop/public/2022-01/essencial-supreme-feminino-desk.jpg?itok=WsFWGHBN"
+    const urlR = "https://static.natura.com/cdn/ff/1IDiS2AGlPR0VyJegNy-T4O6DK013pl3lxX7SrBG_48/1644437488/public/styles/banner_full_desktop/public/2022-02/tododia-tamara-canela-desk.jpg?itok=QYi_i-j9"
     const imgFundo = document.getElementById('bodyNatura').style.backgroundImage = `url(${urlR})`
-    const linkF = document.getElementById('heroPromo').href = "https://www.natura.com.br/consultoria/naturfive"
+    const linkF = document.getElementById('heroPromo').href = "https://www.natura.com.br/s/produtos?busca=%22tododia%20tamara%20e%20canela%22&consultoria=naturfive&iprom_creative=busca_vejatodalinha_tododia&iprom_id=home_bannerprincipal&iprom_name=destaque1_tododia_tamaraecanela_09022022&iprom_pos=2"
     const imgP = document.getElementById('imagePromo').src = `${urlR}`
     
     return (imgFundo, linkF, imgP)

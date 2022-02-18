@@ -13,6 +13,19 @@ function  naturaOnline(){
             "linkPagamento":"https://natura.com.vc/03_co_mg-nqs7x",
             "txMercadolivre":"6,23"},
 
+        {
+            
+            "image": "https://static.natura.com/cdn/ff/JZqu-Xmrci5JQfy412UzqhcviYq8h-A1bEzVjqFMSeY/1644877887/public/products/96711_1_2.jpg", 
+            "nomeProduto": "Kaiak Oceano Desodorante Colônia Feminino",
+            "categoria":"fe",
+            "Preco":"84,90",  
+            "codigo":"96711 - Desodorante Colônia Kaiak Oceano Feminino - 100ml",           
+            "DescontoPorcento":"30",
+            "SoHoje": "1",
+            "link":"https://is.gd/sRFZho",
+            "linkPagamento":"https://mpago.la/31R43QM",
+            "txMercadolivre":"https://www.natura.com.br/p/desodorante-colonia-kaiak-oceano-feminino-100ml/96711?listTitle=manual%20showcase%20-%20garanta%20sua%20fragr%C3%A2ncia%20favorita&list_position=3&consultoria=naturfive"
+        },
             
         {
             

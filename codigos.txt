@@ -1,3 +1,53 @@
+Códigos slides 
+function bannerPromo1() {
+    const urlR = "https://static.natura.com/cdn/ff/WxKfZSgFKOSvAZTXm04eQgvxsp81uw4zzq3AefwJiRw/1642603843/public/styles/banner_full_desktop/public/2022-01/ekos-tukuma-novidades-desk.jpg?itok=146UfBEq"
+    const imgFundo = document.getElementById('bodyNatura').style.backgroundImage = `url(${urlR})`
+    const linkF = document.getElementById('heroPromo').href = "https://www.natura.com.br/consultoria/naturfive"
+    const imgP = document.getElementById('imagePromo').src = `${urlR}`
+    
+    return (imgFundo, linkF, imgP)
+}
+function bannerPromo3() {
+    const urlR = "https://static.natura.com/cdn/ff/Ek_NGA_J4KVgTYZXg_iTvqp3cVugH7eStBQKhDkkW2w/1643060748/public/styles/banner_full_desktop/public/2022-01/essencial-refil-fem-desk_2.jpg?itok=PsLnlJ2P"
+    const imgFundo = document.getElementById('bodyNatura').style.backgroundImage = `url(${urlR})`
+    const linkF = document.getElementById('heroPromo').href = "https://www.natura.com.br/consultoria/naturfive"
+    const imgP = document.getElementById('imagePromo').src = `${urlR}`
+    
+    return (imgFundo, linkF, imgP)
+}
+function bannerPromo4() {
+    const urlR = "https://static.natura.com/cdn/ff/LnwnJMeki-ZhiDL4Jw_ZwaW6rF0q_gB4dKDTapEEs68/1643061017/public/styles/banner_full_desktop/public/2022-01/essencial-refil-mask-desk_2.jpg?itok=x8yDn1Bg"
+    const imgFundo = document.getElementById('bodyNatura').style.backgroundImage = `url(${urlR})`
+    const linkF = document.getElementById('heroPromo').href = "https://www.natura.com.br/consultoria/naturfive"
+    const imgP = document.getElementById('imagePromo').src = `${urlR}`
+    
+    return (imgFundo, linkF, imgP)
+}
+function bannerPromo5() {
+    const urlR = "https://static.natura.com/cdn/ff/5QkWGr5ZwzFF73Uq2NPTm06UM0FyLXvBAFCOxCJwWiQ/1643060748/public/styles/banner_full_desktop/public/2022-01/kaiak-pulso-desk_0.jpg?itok=MYm2n4LG"
+    const imgFundo = document.getElementById('bodyNatura').style.backgroundImage = `url(${urlR})`
+    const linkF = document.getElementById('heroPromo').href = "https://www.natura.com.br/consultoria/naturfive"
+    const imgP = document.getElementById('imagePromo').src = `${urlR}`
+    
+    return (imgFundo, linkF, imgP)
+}
+function bannerPromo6() {
+    const urlR = "https://static.natura.com/cdn/ff/X2xnM5J9QNjhlS6HFFfbS-jVGgyErriJK7UuZmZdJnA/1643060748/public/styles/banner_full_desktop/public/2022-01/essencial-supreme-feminino-desk.jpg?itok=WsFWGHBN"
+    const imgFundo = document.getElementById('bodyNatura').style.backgroundImage = `url(${urlR})`
+    const linkF = document.getElementById('heroPromo').href = "https://www.natura.com.br/consultoria/naturfive"
+    const imgP = document.getElementById('imagePromo').src = `${urlR}`
+    
+    return (imgFundo, linkF, imgP)
+}
+function bannerPromo7() {
+    const urlR = "https://static.natura.com/cdn/ff/X2xnM5J9QNjhlS6HFFfbS-jVGgyErriJK7UuZmZdJnA/1643060748/public/styles/banner_full_desktop/public/2022-01/essencial-supreme-feminino-desk.jpg?itok=WsFWGHBN"
+    const imgFundo = document.getElementById('bodyNatura').style.backgroundImage = `url(${urlR})`
+    const linkF = document.getElementById('heroPromo').href = "https://www.natura.com.br/consultoria/naturfive"
+    const imgP = document.getElementById('imagePromo').src = `${urlR}`
+    
+    return (imgFundo, linkF, imgP)
+}
+
 <div class="gradeProdutos bb" >
             <!-- <a href="/natura.html" target="_blank" rel="nofollow">
                 <div class="produto">
