@@ -4,21 +4,42 @@
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.iconF{
+    display: none;
+}
 /*******Quem Somos *********/
-.quem-somos{
+.sobreDis > h2{
+   
+    text-align: center;
+}
+.sobreDis{
+    padding: 20px;
+    line-height: 2rem;
+}
+.modDepoimentos > img{
+    width: 100%;
+}
+.depoimentos{
     background-image: url(https://img.freepik.com/vetores-gratis/fundo-natura-pintado-a-mao_589706-111.jpg);
     margin: auto;
     background-size: cover;
     position: relative;
-    background-color: rebeccapurple;
-    height: 350px;
-    filter: brightness(60%);
+}
+.quem-somos{
+    
+    background-color: rgba(255, 255, 255, 0.795);
+    height: 280px;
+    filter: brightness(100%);
     display: flex;
     width: 100%;
+    justify-content: center;
+    padding: 50px;
 }
 .qDireito{
+    width: 33%;
     position: relative;
     height: 10px;    
+    text-align: center;
    
 }
 .qDireito > img{
@@ -26,15 +47,39 @@
 }
 
 .qMeio{
+    width: 33%;
     position: relative;
     height: 10px;
+    text-align: center;
       
 }
+.qMeio > p{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+
+}
 .qEsq{
+    width: 33%;
     align-content: center;
     position: relative;
+    text-align: center;   
    
-   
+}
+.qEsq > button{
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: larger;
+    padding: 10px;
+    color: rgb(250, 233, 0);
+    background-color: purple;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.qEsq > button:hover{
+    
+    background-color: rgb(219, 108, 219);
+    
 }
 
 
@@ -511,13 +556,19 @@ main {
         display: block;
         margin-top: -20px;
     }
+    
     .logoOn > a img {
         padding: -15px;
         width: 171px;
     }
+    .iconF{
+        display: block;
+    }
     .opcoesMenu {
+
         display: none;
     }
+    
     .Dnone{
         display: none;
     }
@@ -593,6 +644,7 @@ main {
         cursor: pointer;
         
     }
+    
     .promohero > a img {
         
         min-height: 142px;
@@ -601,4 +653,72 @@ main {
     footer{
         width: 360px;
     }
+    /*******Quem Somos *********/
+        
+        .depoimentos{
+        background-image: url(https://img.freepik.com/vetores-gratis/fundo-natura-pintado-a-mao_589706-111.jpg);
+        margin: auto;
+        background-size: cover;        
+        position: static;
+        }
+    .quem-somos{
+        
+        background-color: rgba(255, 255, 255, 0.795);
+        height: 600px;
+        filter: brightness(100%);
+        display: block;
+        width: 100%;
+        justify-content: center;
+        padding: 5px;
+        position: static;
+    }
+    .qDireito{
+        width: 100%;
+        position: static;
+        height: 10px;    
+        text-align: center;
+    
+    }
+    .qDireito > img{
+        width: 150px;
+    }
+
+    .qMeio{
+        width: 100%;
+        margin-top: 200px;
+        position: static;
+        height: 10px;
+        text-align: center;
+        
+    }
+    .qMeio > p{
+        background-color: yellow;
+        color: rgb(0, 0, 0);
+
+    }
+    .qEsq{
+        margin-top: 200px;
+        width: 100%;
+        align-content: center;
+        position: static;
+        text-align: center;   
+    
+    }
+    .qEsq > button{
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: larger;
+        padding: 10px;
+        color: rgb(250, 233, 0);
+        background-color: purple;
+        border: none;
+        border-radius: 8px;
+    }
+
+
+
+
+
+    /*****Fim quem somos ******/
+
 }

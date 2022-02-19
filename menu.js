@@ -8,6 +8,11 @@ function menuPrincipal() {
     <div class="menuTop">
             
     <nav id="idMenu" class="opcoesMenu Dnone">
+        
+        <div class="iconF" onclick="menumob()">
+        <i class="bi bi-x-square-fill"></i>
+        </div>
+        
         <li><a href="/">Inicio</a></li>
         <li><a href="/corpo-e-banho.html">Corpo</a></li>
         <li><a href="/maquiagem.html">Maquiagem</a></li>
@@ -19,7 +24,8 @@ function menuPrincipal() {
         <li><a href="/contato.html">Contato</a></li>
         
     </nav>
-    <a class="menuMobile" onclick="menumob()"><i class="bi  bi-list-ul" id="menum" ></i>
+    <a class="menuMobile" onclick="menumob()">
+    <i class="bi  bi-list-ul" id="menum" ></i>
     </a>    
 </div>`
 

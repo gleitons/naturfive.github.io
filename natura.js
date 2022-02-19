@@ -282,3 +282,6 @@ function preencheProduto(qp){
 function contaProduto(qtdPruto) {
     return qtdPruto;
 }
+function quemso(){
+    document.getElementById('quems').innerHTML = `<img src="/natura-img/quem-somos-image.png" alt=""> `
+}
