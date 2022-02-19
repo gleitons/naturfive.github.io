@@ -14,6 +14,9 @@ function menuPrincipal() {
         <li><a href="/feminina.html">Feminina</a></li>
         <li><a href="/masculina.html">Masculina</a></li>
         <li><a href="/infantil.html">Infantil</a></li>
+        <li><a href="/depoimentos.html">Depoimentos</a></li>
+        <li><a href="/quem-somos.html">Quem Somos</a></li>
+        <li><a href="/contato.html">Contato</a></li>
         
     </nav>
     <a class="menuMobile" onclick="menumob()"><i class="bi  bi-list-ul" id="menum" ></i>
