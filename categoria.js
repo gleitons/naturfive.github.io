@@ -1,5 +1,6 @@
 function links(){
-    produtosNatura()
+    produtosNatura();
+    
     
 }
 function menumob(){
@@ -74,8 +75,8 @@ function produtosNatura() {
     anunciosTopoI()
     menuPrincipal()
     image1();
-
     slidesBody();
+    menuFooterIn();
     
     var produtosNome = naturaOnline();
     //const qtdProdutos = produtosN.length;

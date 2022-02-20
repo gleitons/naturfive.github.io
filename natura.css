@@ -204,7 +204,7 @@ header {
     width: 100%;
 }
 .menuTop{
-    
+    margin-top: -20px;
    align-content: center;   
 }
 nav {
@@ -262,6 +262,13 @@ main {
     font-weight: 700;
     color: #008d10;
     
+}
+.logoOn > p{
+    margin: auto;
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: rgba(0, 0, 0, 0.514) solid 1px;
 }
 .buscaNatur{
     border: rgb(159, 159, 159) solid 1px;    
@@ -432,9 +439,18 @@ main {
 .blocoFooter{
     margin-left: 50px;
 }
+.envieFoo{
+
+}
+.envieFoo > div input{
+    display: block;
+    margin: 5px 0;
+    width: 100%;
+    padding: 10px;
+}
 .itensFoo{
     justify-content: space-between;
-    padding: 50px;
+    padding: 30px;
     display: flex;
 
 }
@@ -454,6 +470,15 @@ main {
 }
 .navFooter > li:hover{
     margin-left: 10px;
+}
+.secureFoot{
+    display: flex;
+}
+.secureFoot > img{
+    width: 50%;
+    height: 80px;
+    margin: 10px;
+    
 }
 
 
@@ -803,7 +828,7 @@ main {
     }
     .itensFoo{
         justify-content: space-between;
-        padding: 10px;
+        padding: 5px;
         display: block;
 
     }

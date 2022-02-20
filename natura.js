@@ -42,7 +42,8 @@ function onliad() {
     image1();
     //produtosID();
     slidesBody();
-    produtosNatura()
+    produtosNatura();
+    menuFooterIn();
     //bodyP();
     
 }
