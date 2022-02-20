@@ -230,6 +230,35 @@ nav li a:hover{
     background-color: #E3654A;
     color: white;
 }
+.obrigadoE{
+    text-align: center;
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+    
+}
+.obrigadoE > i{
+    font-size: 50px;
+    color: #24ad34;
+    
+}
+.obrigadoE > h3{
+    margin-top: 20px;
+}
+.obrigadoE > p{
+    margin-top: 20px;
+}
+.obrigadoE > button{
+    margin-top: 20px;
+    border: none;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    background-color: #24ad34;
+    cursor: pointer;
+}
+
 main {
     min-height: 92.6vh;
     background-color: white;
@@ -439,8 +468,8 @@ main {
 .blocoFooter{
     margin-left: 50px;
 }
-.envieFoo{
-
+.envieFoo > div form {
+    margin-bottom: 80px;
 }
 .envieFoo > div input{
     display: block;
@@ -448,6 +477,7 @@ main {
     width: 100%;
     padding: 10px;
 }
+
 .itensFoo{
     justify-content: space-between;
     padding: 30px;
@@ -863,5 +893,9 @@ main {
 
 
     /****Fim footer **********/
+    .obrigadoE {        
+        width: 360px;        
+    }
+    
 
 }
