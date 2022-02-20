@@ -4,11 +4,15 @@
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 .depoimentosIma{
     padding: 20px;
     
 }
-
+.depoimentosIma > img{
+    width: 100%;
+    
+}
 .depoimentosIma > h2{
     font-weight: 400;
     
@@ -16,6 +20,11 @@
 .depoimentosIma > p{
     margin-top: 10px;
     font-weight: 600;
+    
+}
+.depoimentosIma a{
+    text-decoration: none;
+    color: black;
     
 }
 .iconF{
@@ -94,6 +103,20 @@
     
     background-color: rgb(219, 108, 219);
     
+}
+.btnDep {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: larger;
+    padding: 10px;
+    color: rgb(250, 233, 0);
+    background-color: purple;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btnDep:hover {
+    background-color: rgb(219, 108, 219);
 }
 
 
@@ -234,6 +257,12 @@ main {
     padding: 5px;
     width: 200px;
 }
+.logoOn > p a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #008d10;
+    
+}
 .buscaNatur{
     border: rgb(159, 159, 159) solid 1px;    
     padding: 10px 0px 10px 20px;
@@ -370,29 +399,67 @@ main {
 }
 .whats{
     width: 100%;
-    height: 70px;
+    height: 30px;
     position: fixed;
-    right: 0;
-    bottom: 50px;
+    right: -180px;
+    bottom: 18px;
     
     
+    
+}
+.whats > a {
+    text-decoration: none;
 }
 .whats > a i {
     
     margin: auto;
     color: #323232;
     background-color: #00e11a ;
-    border-radius: 50%;
-    font-size: 70px;
+    padding: 10px;
+    font-size: 30px;
     margin-left: 60%;
     cursor: pointer;
+    border-radius: 8px;
     
 }
 .whats > a i:hover {
     filter: saturate(150%);
+    box-shadow: black 0px 0px 10px 0px;
     
     
 }
+/*****Inicio footer ******/
+.blocoFooter{
+    margin-left: 50px;
+}
+.itensFoo{
+    justify-content: space-between;
+    padding: 50px;
+    display: flex;
+
+}
+.footerInfo{
+    background-color: #F9EBCD;
+    min-height: 300px;
+}
+.navFooter{
+    display: block;
+    min-width: 260px;
+    transition: 800ms;
+    
+}
+.navFooter li > a{
+    font-weight: 500;
+    
+}
+.navFooter > li:hover{
+    margin-left: 10px;
+}
+
+
+
+
+/****Fim footer **********/
 /*RESOLUÇÃO 768px*/
 @media (max-width: 768px) {
     header{
@@ -435,6 +502,7 @@ main {
         font-size: 40px;
         display: block;
         margin-top: -20px;
+        padding: 10px;
     }
     .logoOn > a img {
         padding: -15px;
@@ -649,12 +717,12 @@ main {
     .whats > a i {
     
         margin: auto;
-        color: #222222;
-        background-color: #019a1290 ;
+        color: #ffffff;
+        background-color: #019a13d7 ;
         border-radius: 10%;
-        font-size: 60px;
+        font-size: 25px;
         padding: 10px;
-        margin-left: 75%;
+        margin-left: 0px;
         cursor: pointer;
         
     }
@@ -728,11 +796,47 @@ main {
         border: none;
         border-radius: 8px;
     }
-
-
-
-
-
     /*****Fim quem somos ******/
+    /*****Inicio footer ******/
+    .blocoFooter{
+        margin-left: 0px;
+    }
+    .itensFoo{
+        justify-content: space-between;
+        padding: 10px;
+        display: block;
+
+    }
+    .footerInfo{
+        background-color: #F9EBCD;
+        min-height: 300px;
+    }
+    .navFooter{
+        display: block;
+        min-width: 260px;
+        transition: 800ms;
+        
+    }
+    .navFooter li > a{
+        
+        font-weight: 500;
+        
+    }
+    .navFooter li{
+        padding: 2px;
+        font-size: 20px;
+        
+    }
+    .navFooter > p{
+        font-size: medium;
+    }
+    .navFooter > li:hover{
+        margin-left: 10px;
+    }
+
+
+
+
+    /****Fim footer **********/
 
 }
