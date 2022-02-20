@@ -4,7 +4,10 @@
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
+.politicaPNatura{
+    padding: 20px;
+    background-color: rgba(182, 250, 179, 0.671);
+}
 .depoimentosIma{
     padding: 20px;
     
@@ -464,6 +467,7 @@ main {
     
     
 }
+
 /*****Inicio footer ******/
 .blocoFooter{
     margin-left: 50px;

@@ -54,7 +54,7 @@ function menuFooterIn() {
                 <nav class="navFooter">
                     <li><a href="/como-comprar.html">+ Como comprar</a></li>
                     <li><a href="/politica-de-privacidade.html">+ Política de Privacidade</a></li>
-                    <li><a href="/troca-e-devolucoes.html">+ Troca e devoluções</a></li>
+                    <li><a href="/trocas-e-devolucoes.html">+ Troca e devoluções</a></li>
                     <li><a href="/perguntas-frequentes.html">+ Perguntas frequentes</a></li>
                     <li><a href="/fretes-e-entregas.html">+ Fretes e entregas</a></li>
                     
