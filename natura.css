@@ -280,7 +280,7 @@ nav li a:hover{
 .obrigadoE > p{
     margin-top: 20px;
 }
-.obrigadoE > button{
+.obrigadoE > a button{
     margin-top: 20px;
     border: none;
     color: white;
@@ -288,6 +288,12 @@ nav li a:hover{
     padding: 10px;
     background-color: #24ad34;
     cursor: pointer;
+}
+.obrigadoE > a button:hover{
+    
+    background-color: #56e466;
+    color: black;
+    
 }
 
 main {

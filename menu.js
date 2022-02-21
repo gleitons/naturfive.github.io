@@ -127,8 +127,8 @@ function menuFooterIn() {
                 <div class="envieFoo">
                     <div>        
                         <form action="https://formsquash.io/f/Yagn7W4tQ37gxRyhFa2T" method="POST">
-                        <input type="text" placeholder="Seu Nome" name="" id="">
-                        <input type="email" placeholder="Seu E-mail" name="" id="" required>
+                        <input type="text" name="Nome" placeholder="Seu Nome" name="" id="">
+                        <input type="email" name="E-mail" placeholder="Seu E-mail" name="" id="" required>
                         <input type="submit" value="CADASTRAR">
                         </form>                            
                         
