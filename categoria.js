@@ -147,40 +147,52 @@ function produtosNatura() {
         }
         const randomSoHoje = Math.random(1 * 1).toFixed();
         console.log(freteSoHojePromo)
+
+
+
+        const selectAtendimento = 0;
+        const idConsultor = "?consultoria=naturfive";
+        
+
+
+
+        if (selectAtendimento == 1){
+            codProduto = `<a href="https://api.whatsapp.com/send?phone=5538999533296&text=Olá, gostaria de comprar o produto *${DeProduto.nomeProduto}*\n código ${DeProduto.codigo}, R$ ${precoProduto},\n a imagem do produto é esta: \n${DeProduto.link} \n- para *COMPRAR AGORA*, basta clicar aqui ${DeProduto.linkPagamento}" target="_blank">`
+        } else {
+            codProduto = `<a href="${DeProduto.linkProdutoSiteNatura}${idConsultor}" target="_blank">`
+        }
+        
         if(randomSoHoje == 0){
-                qtdParcelaReal =  qtdParcela.replace('.' ,',');
-            document.getElementById(`${exibeProdutos}`).innerHTML += `<a nome="${DeProduto.nomeProduto} ${DeProduto.codigo}>
-                <a " href="https://api.whatsapp.com/send?phone=5538999533296&text=Olá, gostaria de comprar o produto *${DeProduto.nomeProduto}*\n código ${DeProduto.codigo}, R$ ${precoProduto},\n a imagem do produto é esta: \n${DeProduto.link} \n- para *COMPRAR AGORA*, basta clicar aqui ${DeProduto.linkPagamento}" target="_blank">
-                <div class="produto" >
-                    <img src="${DeProduto.image}" alt="${DeProduto.nomeProduto} com desconto">
-                    <h2>${DeProduto.nomeProduto}</h2>
-                    <p class="categoria">${categoriaP}</p>
-                    <p class="precoVelho">De: <s >R$ ${varDesconto}</s></p>
-                    <p class="novoPreco">Por: <span>R$ ${DeProduto.Preco}</span></p>
-                    <p class="parcel">${qtdX} <span>R$ ${qtdParcelaReal}</span>.</p>
-                    <button>Comprar</button>
-                
-                
-                
-                </a>
-                        </a>
-            </div>`;
-            } else {
             qtdParcelaReal =  qtdParcela.replace('.' ,',');
-            document.getElementById(`${exibeProdutos}`).innerHTML += `<a nome="${DeProduto.nomeProduto} ${DeProduto.codigo}">
-                <a href="https://api.whatsapp.com/send?phone=5538999533296&text=Olá, gostaria de comprar o produto *${DeProduto.nomeProduto}*\n código ${DeProduto.codigo}, R$ ${precoProduto},  a imagem do produto é esta: \n${DeProduto.link} \n- para *COMPRAR AGORA*, basta clicar aqui ${DeProduto.linkPagamento}" target="_blank">
-                <div class="produto" >
-                    ${promo}
-                    <img src="${DeProduto.image}" alt="${DeProduto.nomeProduto} com desconto">
-                    <h2>${DeProduto.nomeProduto}</h2>
-                    <p class="categoria">${categoriaP}</p>
-                    <p class="precoVelho">De: <s >R$ ${varDesconto}</s></p>
-                    <p class="novoPreco">Por: <span>R$ ${DeProduto.Preco}</span></p>
-                    <p class="parcel">${qtdX} R$ <span>${qtdParcelaReal}</span>.</p>
-                    <button>Comprar</button>
-                </div>
-                        </a>
-            </a>`;}
+        document.getElementById(`${exibeProdutos}`).innerHTML += `<div nome="${DeProduto.nomeProduto} ${DeProduto.codigo}">
+            ${codProduto}
+            <div class="produto" >
+                <img src="${DeProduto.image}" alt="${DeProduto.nomeProduto} com desconto">
+                <h2>${DeProduto.nomeProduto}</h2>
+                <p class="categoria">${categoriaP}</p>
+                <p class="precoVelho">De: <s >R$ ${varDesconto}</s></p>
+                <p class="novoPreco">Por: <span>R$ ${DeProduto.Preco}</span></p>
+                <p class="parcel">${qtdX} <span>R$ ${qtdParcelaReal}</span>.</p>
+                <button>Comprar</button>  
+            </div>
+                </a>
+                </div>`;
+        } else {
+        qtdParcelaReal =  qtdParcela.replace('.' ,',');
+        document.getElementById(`${exibeProdutos}`).innerHTML += `<div nome="${DeProduto.nomeProduto} ${DeProduto.codigo}">
+            ${codProduto}
+            <div class="produto" >
+                ${promo}
+                <img src="${DeProduto.image}" alt="${DeProduto.nomeProduto} com desconto">
+                <h2>${DeProduto.nomeProduto}</h2>
+                <p class="categoria">${categoriaP}</p>
+                <p class="precoVelho">De: <s >R$ ${varDesconto}</s></p>
+                <p class="novoPreco">Por: <span>R$ ${DeProduto.Preco}</span></p>
+                <p class="parcel">${qtdX} R$ <span>${qtdParcelaReal}</span>.</p>
+                <button>Comprar</button>
+            </div>
+                </a>
+        </div>`;}
 
 
 

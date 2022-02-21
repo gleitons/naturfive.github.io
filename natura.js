@@ -185,11 +185,22 @@ function produtosNatura() {
         // <div nome="ba">ba</div>
         // <div nome="be">be</div>
         // </div>  `  
+        const selectAtendimento = 0;
+        const idConsultor = "?consultoria=naturfive";
+        
+
+
+
+        if (selectAtendimento == 1){
+            codProduto = `<a href="https://api.whatsapp.com/send?phone=5538999533296&text=Olá, gostaria de comprar o produto *${DeProduto.nomeProduto}*\n código ${DeProduto.codigo}, R$ ${precoProduto},\n a imagem do produto é esta: \n${DeProduto.link} \n- para *COMPRAR AGORA*, basta clicar aqui ${DeProduto.linkPagamento}" target="_blank">`
+        } else {
+            codProduto = `<a href="${DeProduto.linkProdutoSiteNatura}${idConsultor}" target="_blank">`
+        }
         
         if(randomSoHoje == 0){
             qtdParcelaReal =  qtdParcela.replace('.' ,',');
         document.getElementById(`${exibeProdutos}`).innerHTML += `<div nome="${DeProduto.nomeProduto} ${DeProduto.codigo}">
-            <a href="https://api.whatsapp.com/send?phone=5538999533296&text=Olá, gostaria de comprar o produto *${DeProduto.nomeProduto}*\n código ${DeProduto.codigo}, R$ ${precoProduto},\n a imagem do produto é esta: \n${DeProduto.link} \n- para *COMPRAR AGORA*, basta clicar aqui ${DeProduto.linkPagamento}" target="_blank">
+            ${codProduto}
             <div class="produto" >
                 <img src="${DeProduto.image}" alt="${DeProduto.nomeProduto} com desconto">
                 <h2>${DeProduto.nomeProduto}</h2>
@@ -204,7 +215,7 @@ function produtosNatura() {
         } else {
         qtdParcelaReal =  qtdParcela.replace('.' ,',');
         document.getElementById(`${exibeProdutos}`).innerHTML += `<div nome="${DeProduto.nomeProduto} ${DeProduto.codigo}">
-            <a  href="https://api.whatsapp.com/send?phone=5538999533296&text=Olá, gostaria de comprar o produto *${DeProduto.nomeProduto}*\n código ${DeProduto.codigo}, R$ ${precoProduto},  a imagem do produto é esta: \n${DeProduto.link} \n- para *COMPRAR AGORA*, basta clicar aqui ${DeProduto.linkPagamento}" target="_blank">
+            ${codProduto}
             <div class="produto" >
                 ${promo}
                 <img src="${DeProduto.image}" alt="${DeProduto.nomeProduto} com desconto">
