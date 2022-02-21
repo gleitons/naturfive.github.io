@@ -29,6 +29,9 @@
     display: none;
     overflow: hidden;
   }
+  .panel img{
+      width: 100%;
+  }
 .politicaPNatura{
     padding: 20px;
     background-color: rgba(182, 250, 179, 0.671);
@@ -729,6 +732,9 @@ main {
     }
     .iconF{
         display: block;
+    }
+    .iconF > i {
+        color: #008d10;
     }
     .opcoesMenu {
 
