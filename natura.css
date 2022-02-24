@@ -325,7 +325,8 @@ main {
 }
 .logoOn{
     min-height: 0px;
-    border-top: #ABDEAB solid 5px;
+    /* border-top: #ABDEAB solid 5px; */
+    box-shadow: inset #69ff69d5 0px 5px 10px 0px;
 }
 .logoOn > div a img{
     padding: 5px;
