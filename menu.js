@@ -2,9 +2,11 @@ function menuPrincipal() {
     
     
     document.getElementById('MenuPrincipal').innerHTML = `
-    <div class="logoOn">
-            <a href="/"><img src="https://www.naturfive.com/img/logo-naturfive-naturfive.png" alt="Logo naturfive natura Online"></a>
-            <p><em>Somos representante oficial da <a href="https://www.natura.com.br/c/tudo-em-promocoes?consultoria=naturfive" target="_blank">Natura Cosméticos</a></em></p> 
+    <div class="logoOn menutopDisplay">
+            <div>
+                <a href="/"><img src="https://www.naturfive.com/img/logo-naturfive-naturfive.png" alt="Logo naturfive natura Online"></a>
+                <p><em>Somos representante oficial da <a href="https://www.natura.com.br/c/tudo-em-promocoes?consultoria=naturfive" target="_blank">Natura Cosméticos</a></em></p>
+            </div>
     </div>
     <div class="menuTop">
             

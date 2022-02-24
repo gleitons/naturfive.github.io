@@ -8,11 +8,53 @@ function  naturaOnline(){
             "Preco":"0,00",  
             "codigo":"Produtos variados",      
             "linkProdutoSiteNatura": "https://www.natura.com.br/p/desodorante-colonia-kaiak-oceano-masculino-100ml/96493",    
-            "DescontoPorcento":"30",
+            "DescontoPorcento":"20",
             "SoHoje": "1",
             "link":"https://natura.com.vc/03_co_mg-nqs7x",
             "linkPagamento":"https://natura.com.vc/03_co_mg-nqs7x",
             "txMercadolivre":"6,23"},
+         {
+            
+            "image": "https://static.natura.com/cdn/ff/1NmC2BB2RMBqEVj74XHoklpfS3O5jb7Q931rUX4Mav4/1645621227/public/products/115762_1_8.jpg", 
+            "nomeProduto": "Combo Mamãe e Bebê Cabelos Com Cheirinho De Cuidado",
+            "categoria":"in",
+            "Preco":"99,90",  
+            "codigo":"115762 - Combo Mamãe e Bebê Cabelos Com Cheirinho De Cuidado",  
+            "linkProdutoSiteNatura": "https://www.natura.com.br/p/combo-mamae-e-bebe-cabelos-com-cheirinho-de-cuidado/115762",          
+            "DescontoPorcento":"35",
+            "SoHoje": "1",
+            "link":"https://is.gd/sRFZho",
+            "linkPagamento":"https://www.natura.com.br/p/combo-mamae-e-bebe-cabelos-com-cheirinho-de-cuidado/115762?consultoria=naturfive",
+            "txMercadolivre":"https://www.natura.com.br/p/combo-mamae-e-bebe-cabelos-com-cheirinho-de-cuidado/115762?consultoria=naturfive"
+        },    
+        {
+            
+            "image": "https://static.natura.com/cdn/ff/uyHNOvw7Nmk7a0pTbdyAYs7jVm_aXHqNsDKJWodaliE/1645638010/public/products/102419_1_2.jpg", 
+            "nomeProduto": "Ilía Ser Deo Parfum",
+            "categoria":"fe",
+            "Preco":"99,90",  
+            "codigo":"102419 - Ilía Ser Deo Parfum - 50 ml",  
+            "linkProdutoSiteNatura": "https://www.natura.com.br/p/ilia-ser-deo-parfum-50-ml/102419",          
+            "DescontoPorcento":"35",
+            "SoHoje": "1",
+            "link":"https://is.gd/sRFZho",
+            "linkPagamento":"https://www.natura.com.br/p/ilia-ser-deo-parfum-50-ml/102419?consultoria=naturfive",
+            "txMercadolivre":"https://www.natura.com.br/p/ilia-ser-deo-parfum-50-ml/102419?consultoria=naturfive"
+        },    
+        {
+            
+            "image": "https://static.natura.com/cdn/ff/MlE3XxuObJTuag_JtldCgOF_ZbTd8wrz4lF9u3jNagY/1645651293/public/products/54522_1_22.jpg", 
+            "nomeProduto": "Ilía Deo Parfum",
+            "categoria":"fe",
+            "Preco":"99,90",  
+            "codigo":"54522 - Ilía - 50 ml",  
+            "linkProdutoSiteNatura": "https://www.natura.com.br/p/ilia-50-ml/54522",          
+            "DescontoPorcento":"35",
+            "SoHoje": "1",
+            "link":"https://is.gd/sRFZho",
+            "linkPagamento":"https://www.natura.com.br/p/ilia-50-ml/54522?consultoria=naturfive",
+            "txMercadolivre":"https://www.natura.com.br/p/ilia-50-ml/54522?consultoria=naturfive"
+        },
         {
             
             "image": "https://static.natura.com/cdn/ff/A8ksPWDBESBxqCckpBc87x44Nw-K9fYhVVB5DOEYK5k/1645638607/public/products/103348_1_2.jpg", 
