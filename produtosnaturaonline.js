@@ -13,6 +13,20 @@ function  naturaOnline(){
             "link":"https://natura.com.vc/03_co_mg-nqs7x",
             "linkPagamento":"https://natura.com.vc/03_co_mg-nqs7x",
             "txMercadolivre":"6,23"},
+        {
+            
+            "image": "https://static.natura.com/cdn/ff/A8ksPWDBESBxqCckpBc87x44Nw-K9fYhVVB5DOEYK5k/1645638607/public/products/103348_1_2.jpg", 
+            "nomeProduto": "Essencial Único Deo Parfum Masculino",
+            "categoria":"ma",
+            "Preco":"174,90",  
+            "codigo":"103348 - Essencial Único Deo Parfum Masculino - 90 ml",  
+            "linkProdutoSiteNatura": "https://www.natura.com.br/p/essencial-unico-deo-parfum-masculino-90-ml/103348",          
+            "DescontoPorcento":"30",
+            "SoHoje": "1",
+            "link":"https://is.gd/sRFZho",
+            "linkPagamento":"https://www.natura.com.br/p/essencial-unico-deo-parfum-masculino-90-ml/103348?&consultoria=naturfive",
+            "txMercadolivre":"https://www.natura.com.br/p/essencial-unico-deo-parfum-masculino-90-ml/103348?&consultoria=naturfive"
+        },
 
         {
             

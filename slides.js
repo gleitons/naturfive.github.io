@@ -1,7 +1,7 @@
 
 var consultor = "?consultoria=naturfive"
 function slidesBody() {
-    const aleBanner = (Math.random() * 6).toFixed(0,1);
+    const aleBanner = (Math.random() * 8).toFixed(0,1);
    
     
     if (aleBanner == 1) {
@@ -14,8 +14,12 @@ function slidesBody() {
         bannerPromo4();
     }else if (aleBanner == 5){
         bannerPromo5();
-    }else {
+    } else if (aleBanner == 5){
         bannerPromo6();
+    } else if (aleBanner == 5){
+        bannerPromo7();
+    }else {
+        bannerPromo8();
     }
    
     
@@ -74,6 +78,22 @@ function bannerPromo6() {
     return (imgFundo, linkF, imgP)
 }
 function bannerPromo7() {
+    const urlR = "https://static.natura.com/cdn/ff/ypktm3YBLg25TfEGrg3wxzpTW5YfmOU3fQgpf2FB-RA/1645638930/public/styles/banner_full_desktop/public/2022-02/1920x695%20-%20Tododia%20limao%20e%20hortel%C3%A3%20Casting.jpg?itok=_B3v-AQJ"
+    const imgFundo = document.getElementById('bodyNatura').style.backgroundImage = `url(${urlR})`
+    const linkF = document.getElementById('heroPromo').href = "https://www.natura.com.br/s/produtos?busca=%22Tododia%20Capim%20Limao%20e%20Hortela%22&iprom_creative=busca_comprar_tododia&iprom_id=home_bannerprincipal&iprom_name=destaque1_tododia_capimlimao_23022022&iprom_pos=1?&consultoria=naturfive"
+    const imgP = document.getElementById('imagePromo').src = `${urlR}`
+    
+    return (imgFundo, linkF, imgP)
+}
+function bannerPromo8() {
+    const urlR = "https://static.natura.com/cdn/ff/GF8LSsRe0t3knKT4R0W00lJ8MYlmMGZHB8arCii6uV8/1645638931/public/styles/banner_full_desktop/public/2022-02/1920x695.jpg?itok=tcADSKgL"
+    const imgFundo = document.getElementById('bodyNatura').style.backgroundImage = `url(${urlR})`
+    const linkF = document.getElementById('heroPromo').href = "https://www.natura.com.br/s/produtos?busca=%22essencial%20unico%22&iprom_creative=busca_euquero_essencialunico&iprom_id=home_bannerprincipal&iprom_name=destaque1_essencial_unico_23022022&iprom_pos=2?&consultoria=naturfive"
+    const imgP = document.getElementById('imagePromo').src = `${urlR}`
+    
+    return (imgFundo, linkF, imgP)
+}
+function bannerPromo9() {
     const urlR = "https://static.natura.com/cdn/ff/X2xnM5J9QNjhlS6HFFfbS-jVGgyErriJK7UuZmZdJnA/1643060748/public/styles/banner_full_desktop/public/2022-01/essencial-supreme-feminino-desk.jpg?itok=WsFWGHBN"
     const imgFundo = document.getElementById('bodyNatura').style.backgroundImage = `url(${urlR})`
     const linkF = document.getElementById('heroPromo').href = "https://www.natura.com.br/consultoria/naturfive"
