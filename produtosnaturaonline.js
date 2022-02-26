@@ -18,7 +18,7 @@ function  naturaOnline(){
             "image": "https://static.natura.com/cdn/ff/1NmC2BB2RMBqEVj74XHoklpfS3O5jb7Q931rUX4Mav4/1645621227/public/products/115762_1_8.jpg", 
             "nomeProduto": "Combo Mamãe e Bebê Cabelos Com Cheirinho De Cuidado",
             "categoria":"in",
-            "Preco":"99,90",  
+            "Preco":"51,80",  
             "codigo":"115762 - Combo Mamãe e Bebê Cabelos Com Cheirinho De Cuidado",  
             "linkProdutoSiteNatura": "https://www.natura.com.br/p/combo-mamae-e-bebe-cabelos-com-cheirinho-de-cuidado/115762",          
             "DescontoPorcento":"35",

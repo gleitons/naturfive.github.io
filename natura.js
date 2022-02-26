@@ -121,6 +121,7 @@ function bodyP() {
 }
       
 function produtosNatura() {
+    
     var produtosNome = naturaOnline();
     //const qtdProdutos = produtosN.length;
     

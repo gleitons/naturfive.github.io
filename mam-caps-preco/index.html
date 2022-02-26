@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/natura.css">
+    <link rel="stylesheet" href="produtos.css">
+    <link rel="shortcut icon" href="/favicon.png" type="image/png">
+    <title>Natura Masculino - Naturfive</title>
+</head>
+
+<body id="bodyNatura" onload="produtosNatura()">
+    <div id="anuncioImportante"></div>
+    <header class="bb">  
+        <div id="MenuPrincipal">  
+            <picture>
+                <source media="(max-width:600px)" srcset="/imagens-naturfive/natur-mobile.jpeg">
+                <source media="(min-width:650px)" srcset="/imagens-naturfive/loading-naturfive.jpeg">  
+                <img src="/imagens-naturfive/loading-naturfive.jpeg" alt="Flowers" style="width:auto;">            
+                 
+            </picture>            
+             
+        </div>        
+        <div class="produtoMamcaps"> 
+            <div class="titleMamCaps">
+                <h1>MAM CAPS</h1>
+            </div>
+            <div class="SectionMam">
+                <div class="mamDireito">
+                    <img id="imageMam" src="/mam-caps-preco/hero-mam-caps-produto.png" alt="">
+                    <p>FRETE GRÁTIS CARREGADO COM SUCESSO...</p>
+                    <!-- <div onload="fGratis()">
+                        <div  id="freteGratis">
+                            dsfasdfasd
+                            <a href="https://ev.braip.com/ref?pv=pro0xgq8&af=afi6jj3pl" target="_blank">
+                                <h2 style="background-color: rgb(197, 51, 136); color: white; width: 80%; margin: auto; font-size: 16px; padding: 15px; border-radius: 12px;">EU QUERO MAM CAPS COM FRETE GRÁTIS</h2>
+                            </a>
+                        </div>
+                    </div> -->
+                    
+                    <a href="https://ev.braip.com/ref?pv=pro0xgq8&af=afi6jj3pl" target="_blank"><img src="/mam-caps-preco/eu-quero-mam-caps-com-desconto.gif" alt=""></a>
+                    <p>Compre agora e ganhe mais um brinde exclusivo!!</p>
+                </div>
+                <div class="mamEsquerdo">
+                    <div class="formularioMam" id="formCalc">  
+                        
+                        <p>Deseja comprar o Mam Caps para engravidar, mas quanto deve tomar? Podemos te ajudar.</p>
+                        <form class="formularioMC" action="https://google.com/dd" method="post">
+                            <p>Está tentando a quanto tempo?</p>
+                            <select name="f" id="qTempo">
+                                <option value="0">SELECIONE:</option>
+                                <option value="1">MENOS DE UM MÊS</option>
+                                <option value="2">ENTRE UM E CINCO MESES</option>
+                                <option value="3">MAIS DE CINCO MESES</option>
+                            </select>
+                            <p>Já possui filhos?</p>
+                            <select name="f" id="jaPossui">
+                                <option value="0">SELECIONE:</option>
+                                <option value="1">NÃO POSSUO</option>
+                                <option value="2">UM FILHO</option>
+                                <option value="3">DE DOIS A CINCO FILHOS</option>
+                                <option value="4">MAIS DE CINCO FILHOS</option>
+                                <option value="5">PERDI NA GRAVIDEZ</option>
+                            </select>
+                            <p>Qual é a sua idade?</p>
+                            <select name="f" id="Idade">
+                                <option value="0">SELECIONE:</option>
+                                <option value="1">18 ANOS</option>
+                                <option value="2">ENTRE 19 E 25 ANOS</option>
+                                <option value="3">ENTRE 26 E 35 ANOS</option>
+                                <option value="4">MAIS DE 36 ANOS</option>
+                            </select>
+                            <div class="checkBMC">
+                                <input type="checkbox" checked name="" id="">
+                                <p>Permito o consentimento e sei que é apenas uma sugestão, não substituindo uma avaliação médica.</p>
+                            </div>
+                            <input id="btnEnv" type="button" onclick="verficadorFMC()" value="ANALISAR SITUAÇÃO">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main style="display: none;" class="bb">
+        
+        <div >
+            <div class="promohero">
+                <a  id="heroPromo" target="_blank">
+                    <img id="imagePromo" src="/imagens-naturfive/carregando-promocao.svg" alt="promoção do dia">
+                </a>
+            </div>
+            
+            <div class="heroanim">
+                <a id="linkBanner">
+                    <img id="bannerHero">
+                </a>
+            </div>
+        </div>
+       
+    </main>
+    
+    <div class=" tudoC">
+        <i class="bi bi-check-square-fill"></i>
+        <h3>Tudo Certo!</h3>
+        <p>Desconto carregado com sucesso</p>
+        <a href="https://ev.braip.com/ref?pv=pro0xgq8&af=afi6jj3pl" target="_blank"><button >OK</button></a>
+    </div>
+    <footer class="bb">
+        <div id="menuFooterR"></div>        
+        </div>
+        <div class="whats" id="whatsapp">            
+                <a href="https://api.whatsapp.com/send?phone=5538999533296&text=Olá, gostaria de comprar o produto alguns produtos natura! Poderia me ajudar?" target="_blank"><i class="bi bi-whatsapp">Whatsapp</i>   </a>         
+        </div>
+    </footer>
+    
+    <script src="/categoria.js"></script>
+    <script src="/produtosnaturaonline.js"></script>
+    <script src="/slides.js"></script>
+    <script src="/menu.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="sistema_de_busca.js"></script>
+    <script src="https://hatatori.github.io/search-engine-system/sistema_de_busca.js"></script>
+    <script src="/mam-caps-preco/mc.js"></script>
+</body>
+
+</html>

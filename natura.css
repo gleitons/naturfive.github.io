@@ -4,6 +4,134 @@
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.tudoC{
+    background-image: linear-gradient(to bottom,  rgb(245, 220, 252), rgb(255, 255, 255));
+    text-align: center;
+    
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+.tudoC > i{
+    font-size: 50px;
+    color: #24ad34;
+    
+}
+.tudoC > h3{
+    margin-top: 20px;
+}
+.tudoC > p{
+    margin-top: 20px;
+}
+.tudoC > a button{
+    margin-top: 20px;
+    border: none;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    background-color: #24ad34;
+    cursor: pointer;
+}
+.tudoC > a button:hover{
+    
+    background-color: #56e466;
+    color: black;
+    
+}
+.produtoMamcaps{
+    width: 100% ;
+    background-image: linear-gradient(to bottom, rgb(255, 236, 255), rgb(245, 220, 252));
+}
+.titleMamCaps{
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    
+}
+.SectionMam{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+}
+.mamDireito {
+    width: 50%;
+}
+.mamDireito img {
+    width: 80%;
+}
+#imageMam {
+    width: 100%;
+    padding: 10px;
+}
+
+.mamEsquerdo{
+
+}
+.formularioMam {
+    width: 400px;
+    text-align: start;
+    background-image: linear-gradient(45deg, rgb(94, 69, 69), rgb(66, 7, 61), rgb(145, 0, 0));
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+    box-shadow: black 0px 0px 5px 0px;
+}
+.formularioMC{
+    
+}
+.formularioMC > p {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 20px;
+}
+.formularioMC > select {
+    border: none;
+    width: 100%;
+    border-radius: 12px;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    background-image: linear-gradient(to bottom, rgb(248, 223, 223), rgb(255, 170, 248), rgb(248, 202, 202));
+}
+.formularioMC > #btnEnv {
+    
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 10px;
+    border: none;
+    margin: 10px auto;
+    color: white;
+    width: 100%;
+    background-image: linear-gradient(to left, rgb(225, 51, 110), rgb(255, 107, 156));
+    box-shadow: rgba(0, 0, 0, 0.521) 0px 0px 10px 0px;
+
+}
+.formularioMC > #btnEnv:hover {
+    
+    cursor: pointer;
+    
+    background-image: linear-gradient(to left,  rgb(255, 107, 156), rgb(225, 51, 110));
+    box-shadow: rgba(0, 0, 0, 0.788) 0px 0px 10px 0px;
+}
+.checkBMC {
+    display: flex;
+    margin-top: 10px;
+}
+.checkBMC > p{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.checkBMC > input:checked{
+    
+}
+
+
+
+
+
+/*****************fim mam caps **************/
 .menutopDisplay div{
     display: flex;
     width: 80%;
@@ -959,6 +1087,128 @@ main {
     .obrigadoE {        
         width: 360px;        
     }
+    /*****inicio mamcaps ****/
+    .titleMamCaps{
+        width: 100%;
+        margin: auto;
+        background-color: black;
+        color: white;
+        padding: 5px;
+        
+    }
+    .SectionMam{
+        display: block;
+        padding: 30px;
+        align-items: center;
+    }
+    .mamDireito {
+        width: 100%;
+    }
+    .mamDireito img {
+        width: 80%;
+    }
+    #imageMam {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .mamEsquerdo{
+    
+    }
+    .formularioMam {
+        width: 100%;
+        text-align: start;
+        background-image: linear-gradient(45deg, rgb(94, 69, 69), rgb(66, 7, 61), rgb(145, 0, 0));
+        padding: 20px;
+        border-radius: 12px;
+        color: white;
+        box-shadow: black 0px 0px 5px 0px;
+    }
+    .formularioMC{
+        
+    }
+    .formularioMC > p {
+        margin-top: 20px;
+        width: 100%;
+        font-size: 20px;
+    }
+    .formularioMC > select {
+        border: none;
+        width: 100%;
+        border-radius: 12px;
+        font-size: 20px;
+        text-align: center;
+        padding: 5px;
+        background-image: linear-gradient(to bottom, rgb(248, 223, 223), rgb(255, 170, 248), rgb(248, 202, 202));
+    }
+    .formularioMC > #btnEnv {
+        
+        font-size: 20px;
+        border-radius: 12px;
+        padding: 10px;
+        border: none;
+        margin: 10px auto;
+        color: white;
+        width: 100%;
+        background-image: linear-gradient(to left, rgb(225, 51, 110), rgb(255, 107, 156));
+        box-shadow: rgba(0, 0, 0, 0.521) 0px 0px 10px 0px;
+    
+    }
+    .formularioMC > #btnEnv:hover {
+        
+        cursor: pointer;
+        
+        background-image: linear-gradient(to left,  rgb(255, 107, 156), rgb(225, 51, 110));
+        box-shadow: rgba(0, 0, 0, 0.788) 0px 0px 10px 0px;
+    }
+    .checkBMC {
+        display: flex;
+        margin-top: 10px;
+    }
+    .checkBMC > p{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    
+    
+    .tudoC{
+        background-image: linear-gradient(to bottom,  rgb(245, 220, 252), rgb(255, 255, 255));
+        text-align: center;
+        
+        width: 100%;
+        margin: auto;
+        padding: 20px;
+    }
+    .tudoC > i{
+        font-size: 50px;
+        color: #24ad34;
+        
+    }
+    .tudoC > h3{
+        margin-top: 20px;
+    }
+    .tudoC > p{
+        margin-top: 20px;
+    }
+    .tudoC > a button{
+        margin-top: 20px;
+        border: none;
+        color: white;
+        width: 200px;
+        padding: 10px;
+        background-color: #24ad34;
+        cursor: pointer;
+    }
+    .tudoC > a button:hover{
+        
+        background-color: #56e466;
+        color: black;
+        
+    }
+    
+    
+    
+    /*****************fim mam caps **************/
     
 
 }
