@@ -37,6 +37,7 @@ function anunciosTopoI() {
     }
 }
 function onliad() {
+    
     anunciosTopoI();
     menuPrincipal()
     image1();
@@ -121,7 +122,7 @@ function bodyP() {
 }
       
 function produtosNatura() {
-    
+   
     var produtosNome = naturaOnline();
     //const qtdProdutos = produtosN.length;
     
