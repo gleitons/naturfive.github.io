@@ -1,8 +1,8 @@
 function  naturaOnline(){
-    
+    // https://cf.shopee.com.br/file/ad1241042e1c6cfd0901f44841174d03
     return `[
-        {
-            "image": "https://cf.shopee.com.br/file/ad1241042e1c6cfd0901f44841174d03", 
+        {   
+            "image": "/natura-img/ab.jpeg", 
             "nomeProduto": "Gostaria de ver o catálogo Natura Online",
             "categoria":"catálago",
             "Preco":"0,00",  

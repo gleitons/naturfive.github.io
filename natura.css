@@ -729,7 +729,7 @@ main {
         height: 170px;
     }
     .bb{
-       /* border: black solid 1px;*/
+       /* border: black solid 1px; */
     }
     .menuMobile {   
         width: 768px;
@@ -761,6 +761,7 @@ main {
     
     .produto img {
         width: 100%;
+        
     }
     .produto h1{
         position: absolute;

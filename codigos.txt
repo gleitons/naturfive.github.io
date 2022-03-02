@@ -1,3 +1,22 @@
+{
+            
+            "image": "https://static.natura.com/cdn/ff/1NmC2BB2RMBqEVj74XHoklpfS3O5jb7Q931rUX4Mav4/1645621227/public/products/115762_1_8.jpg", 
+            "nomeProduto": "Combo Mamãe e Bebê Cabelos Com Cheirinho De Cuidado",
+            "categoria":"in",
+            "Preco":"51,80",  
+            "codigo":"115762 - Combo Mamãe e Bebê Cabelos Com Cheirinho De Cuidado",  
+            "linkProdutoSiteNatura": "https://www.natura.com.br/p/combo-mamae-e-bebe-cabelos-com-cheirinho-de-cuidado/115762",          
+            "DescontoPorcento":"35",
+            "SoHoje": "1",
+            "link":"https://is.gd/sRFZho",
+            "linkPagamento":"https://www.natura.com.br/p/combo-mamae-e-bebe-cabelos-com-cheirinho-de-cuidado/115762?consultoria=naturfive",
+            "txMercadolivre":"https://www.natura.com.br/p/combo-mamae-e-bebe-cabelos-com-cheirinho-de-cuidado/115762?consultoria=naturfive"
+        },    
+
+
+
+
+
 Códigos slides 
 function bannerPromo1() {
     const urlR = "https://static.natura.com/cdn/ff/WxKfZSgFKOSvAZTXm04eQgvxsp81uw4zzq3AefwJiRw/1642603843/public/styles/banner_full_desktop/public/2022-01/ekos-tukuma-novidades-desk.jpg?itok=146UfBEq"
@@ -135,3 +154,11 @@ function bannerPromo7() {
             <i onclick="fecharAnuncioImportante()" class="bi bi-x-lg"></i>
         </div>
     </div>
+
+
+
+    if (answer.match(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/im)) 
+            {     
+                // podemos opcionalmente parsear esta url em um objeto do tipo URL     
+                appendTheFile(url)   
+            } 

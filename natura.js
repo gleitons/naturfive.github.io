@@ -5,7 +5,7 @@ function fecharAnuncioImportante() {
     })
 }
 function anunciosTopoI() {
-    const ranD = (Math.random() * 2).toFixed(0,1);
+    const ranD = Math.floor((Math.random() * 2));
     console.log(ranD)
     if (ranD == 0) {
         document.getElementById('anuncioImportante').innerHTML = `<div class="anunImp">
