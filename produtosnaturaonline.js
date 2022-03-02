@@ -2,7 +2,7 @@ function  naturaOnline(){
     // https://cf.shopee.com.br/file/ad1241042e1c6cfd0901f44841174d03
     return `[
         {   
-            "image": "/natura-img/ab.jpeg", 
+            "image": "https://rogresph.sirv.com/Naturfive/CDN%20Sirv/varios-produtos-natura.jpeg", 
             "nomeProduto": "Gostaria de ver o catálogo Natura Online",
             "categoria":"catálago",
             "Preco":"0,00",  
@@ -15,7 +15,7 @@ function  naturaOnline(){
             "txMercadolivre":"6,23"},
          {
             
-            "image": "https://static.natura.com/cdn/ff/1NmC2BB2RMBqEVj74XHoklpfS3O5jb7Q931rUX4Mav4/1645621227/public/products/115762_1_8.jpg", 
+            "image": "https://rogresph.sirv.com/Naturfive/CDN%20Sirv/115762.jpeg", 
             "nomeProduto": "Combo Mamãe e Bebê Cabelos Com Cheirinho De Cuidado",
             "categoria":"in",
             "Preco":"51,80",  
@@ -245,7 +245,7 @@ function  naturaOnline(){
             "linkPagamento":"https://mpago.la/2V6gtc2",
             "txMercadolivre":"3,99"},
         {
-            "image": "https://static.natura.com/cdn/ff/90t5W6O8x9RYQKW8jaXk5XcES0dsmBeYzJez3krCozA/1643896275/public/products/86723_1_22.jpg", 
+            "image": "https://rogresph.sirv.com/Naturfive/CDN%20Sirv/86723.jpeg", 
             "nomeProduto": "Meu Primeiro Humor Desodorante Colônia",
             "categoria":"pe",
             "Preco":"64,90",
@@ -257,11 +257,11 @@ function  naturaOnline(){
             "linkPagamento":"https://mpago.la/1AQ8t5g",
             "txMercadolivre":"3,24"},
         {
-            "image": "https://static.natura.com/cdn/ff/m0QdDCV9ofJv8qiMDjTNqOuzuKxqinnQk8KThaPFRuU/1643735477/public/products/76420_1_2.jpg", 
+            "image": "https://rogresph.sirv.com/Naturfive/CDN%20Sirv/76420.jpeg", 
             "nomeProduto": "Essencial Deo Parfum Masculino",
             "categoria":"ma",
             "Preco":"124,90",
-            "codigo":"5544",      
+            "codigo":"76420",      
             "linkProdutoSiteNatura": "https://www.natura.com.br/p/essencial-masculino-100-ml/76420",
             "DescontoPorcento":"30",
             "SoHoje": "1",
@@ -269,7 +269,7 @@ function  naturaOnline(){
             "linkPagamento":"https://mpago.la/2uTZFYV",
             "txMercadolivre":"3,24"},
         {
-            "image": "https://static.natura.com/cdn/ff/WPX9yTbz-vx_BNQC-yFLozbpngNsDWcnaPLzRnSz-AI/1643735433/public/products/22557_1_3.jpg", 
+            "image": "/natura-img/22557.jpeg", 
             "nomeProduto": "Kaiak Aventura Desodorante Colônia Masculino",
             "categoria":"ma",
             "Preco":"63,45",
