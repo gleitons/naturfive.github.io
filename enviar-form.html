@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    
     <script src="https://compressjs.herokuapp.com/compress.js"></script>
     <title>Compactar Imagem</title>
 </head>
@@ -18,26 +18,28 @@
         </div>
 
         <form action="https://formsquash.io/f/X6Se9ELA7MhPAlCRGrjh" method="post">
-            <input type="file" name="imagem" id="upload"  accept="image/*">
+            <input type="file" name="imagem" id="upload" accept="image/*"> <br>
+            <input type="text" id="imageLink" name="linkI">
+            <!-- <input type="text" name="Link Imagem" id="linkCurtoI"> -->
             <div>
-                
+
             </div>
-            
-            
-            
+
+
+
             <input type="submit" value="Go">
 
         </form>
 
-      
+
 
     </div>
     <div>
-     
+
         <img src="" alt="" id="preview">
 
     </div>
-    <br/>
+    <br />
     <p id="output"></p>
 
     <script>
@@ -46,17 +48,17 @@
         const output = document.getElementById('output')
 
         const upload = document.getElementById('upload')
-        
-        
+
+
 
 
 
 
         upload.addEventListener('change', (evt) => {
             const files = [...evt.target.files]
-            console.log(files)
+            
             compress.compress(files, {
-                
+
                 size: 4, // the max size in MB, defaults to 2MB
                 quality: 0.60, // the quality of the image, max is 1,
                 maxWidth: 600, // the max width of the output image, defaults to 1920px
@@ -64,14 +66,15 @@
                 resize: true // defaults to true, set false if you do not want to resize the image width and height
             }).then((images) => {
                 const img = images[0]
-                console.log(img)
+               
                 // returns an array of compressed images
                 preview.src = `${img.prefix}${img.data}`
-                
-                
-                
+                const b64 = preview.src;
+
+
+
                 //<textarea name="${preview.src}" cols="30" rows="10"></textarea>
-                
+
 
 
                 const {
@@ -82,15 +85,40 @@
                     elapsedTimeInSeconds,
                     alt
                 } = img
+                const imgB = `${b64}`
                 
-                output.innerHTML = `<b>Start Size:</b> ${initialSizeInMb} MB <br/> <b>Base 64</b><br><div style="width: 300px; overflow: auto">${preview.src}</div><b>End Size:</b> ${endSizeInMb} MB <b>Compression Cycles:</b> ${iterations} <br/><b>Size Reduced:</b> ${sizeReducedInPercent} % <br/><b>File Name:</b> ${alt}`
+                document.getElementById('imageLink').value = `${b64}`
+                encurtarImage(imgB)
+                
             })
         }, false)
 
-        
+        function encurtarImage(imb) {
+            const valor = imb;
+            console.log(valor)
+
+            $.getJSON("https://is.gd/create.php?callback=?", {
+                url: valor,
+                format: "json"
+            }).done(function (data) {
+                linkCurto = data.shorturl;
+                if (linkCurto !== undefined) {
+                    console.log(linkCurto)
+                    document.getElementById('linkCurtoI').value = `${linkCurto}`
+                    
+
+
+                } else {
+                    document.getElementById('linkCurtoI').value = `${linkCurto}`
+                }
+
+
+            })
+
+        };
     </script>
 
-    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
 
 </html>
