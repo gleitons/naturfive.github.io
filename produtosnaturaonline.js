@@ -87,7 +87,7 @@ function  naturaOnline(){
             
         {
             
-            "image": "https://static.natura.com/cdn/ff/DMc1L9rvvEKEaDSloPmferMjQItQDIy6gLtaAni4WBc/1644278436/public/products/57525_1_13.jpg", 
+            "image": "https://rogresph.sirv.com/Naturfive/CDN%20Sirv/57525.jpeg", 
             "nomeProduto": "K Deo Parfum Masculino",
             "categoria":"ma",
             "Preco":"157,90",  
@@ -125,12 +125,12 @@ function  naturaOnline(){
             "linkPagamento":"https://mpago.la/2cPA8tD",
             "txMercadolivre":"6,23"},
         {
-            "image": "https://static.natura.com/cdn/ff/bqrqLohLdCD_2p9ZhanM6yKDR6z2YH3bV9Oc-3FCx4Q/1643905204/public/products/115901_1_2.jpg", 
+            "image": "https://rogresph.sirv.com/Naturfive/CDN%20Sirv/25227.jpeg", 
             "nomeProduto": "Kit Kaiak Pulso Desodorante Colônia Masculino",
             "categoria":"ma",
             "Preco":"134,90",  
             "codigo":"115901 - Kit Kaiak Pulso Desodorante Colônia Masculino",  
-            "linkProdutoSiteNatura": "https://www.natura.com.br/p/kit-kaiak-pulso-desodorante-colonia-masculino/115901",         
+            "linkProdutoSiteNatura": "https://www.natura.com.br/p/kaiak-pulso-masculino-100-ml/25227",         
             "DescontoPorcento":"30",
             "SoHoje": "1",
             "link":"https://is.gd/OtQ4dW",
@@ -149,7 +149,7 @@ function  naturaOnline(){
             "linkPagamento":"https://mpago.la/2spYV7h",
             "txMercadolivre":"3,24"},
         {
-            "image": "https://static.natura.com/cdn/ff/QiWuy4XMUnQnM7uLrgaQUwj4tftELKHAdavi8c2YFjo/1643826696/public/products/92795_1_12.jpg", 
+            "image": "https://rogresph.sirv.com/Naturfive/CDN%20Sirv/92795.jpeg", 
             "nomeProduto": "Sabonete Mamãe e Bebê",
             "categoria":"in",
             "Preco":"29,90",  
@@ -161,7 +161,7 @@ function  naturaOnline(){
             "linkPagamento":"https://mpago.la/1J2FrQf",
             "txMercadolivre":"3,24"},
         {
-            "image": "https://static.natura.com/cdn/ff/GD52GkhgFFclGC9lNoEMaKX-MhOr_26In1JfxzfGXaY/1643735467/public/products/53255_1_44.jpg", 
+            "image": "https://rogresph.sirv.com/Naturfive/CDN%20Sirv/53255.jpeg", 
             "nomeProduto": "Natura Homem Desodorante Colônia",
             "categoria":"ma",
             "Preco":"79,90",  
@@ -185,7 +185,7 @@ function  naturaOnline(){
             "linkPagamento":"https://mpago.la/1fKJHVY",
             "txMercadolivre":"3,17"},
         {
-            "image": "https://static.natura.com/cdn/ff/CC6AbvGfQvRWIbjjIajQuBS-4Zi7bP0HqmSLz8maqkM/1643665811/public/products/71600_1_17.jpg", 
+            "image": "https://rogresph.sirv.com/Naturfive/CDN%20Sirv/71600.jpeg", 
             "nomeProduto": "Biografia Desodorante Colônia Feminino",
             "categoria":"fe",
             "Preco":"82,90",  
@@ -209,7 +209,7 @@ function  naturaOnline(){
             "linkPagamento":"https://mpago.la/12qQYmX",
             "txMercadolivre":"8,48"},
         {
-            "image": "https://static.natura.com/cdn/ff/a4l4Vt4cuv65TE-nuyI7eAIulseQzH9AtJ9sj8tAapk/1643664607/public/products/76421_1_21.jpg", 
+            "image": "https://rogresph.sirv.com/Naturfive/CDN%20Sirv/76421.jpeg", 
             "nomeProduto": "Essencial Deo Parfum Feminino - Essencial",
             "categoria":"fe",
             "Preco":"124,90",  
@@ -221,7 +221,7 @@ function  naturaOnline(){
             "linkPagamento":"https://mpago.la/2msTEJE",
             "txMercadolivre":"6,24"},
         {
-            "image": "https://static.natura.com/cdn/ff/xzrGt-DmkOcWgksG-KYjOSNTVJ95bvfXFn2QrcHxxQg/1642996300/public/products/102422_1_2.jpg", 
+            "image": "https://rogresph.sirv.com/Naturfive/CDN%20Sirv/102422.jpeg", 
             "nomeProduto": "Humor Liberta Desodorante Colônia",
             "categoria":"hu",
             "Preco":"83,90",  
@@ -233,7 +233,7 @@ function  naturaOnline(){
             "linkPagamento":"https://mpago.la/1vQSZEK",
             "txMercadolivre":"4,15"},
         {
-            "image": "https://static.natura.com/cdn/ff/6X8d-OgQlyZTA3T4WKCMpepBvLnjDWqEx4IMv9t2oUE/1643893829/public/products/56417_1_13.jpg", 
+            "image": "https://rogresph.sirv.com/Naturfive/CDN%20Sirv/56417.jpeg", 
             "nomeProduto": "Luna Absoluta Desodorante Colônia",
             "categoria":"pe",
             "Preco":"79,90",  
