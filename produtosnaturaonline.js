@@ -1,5 +1,5 @@
 function  naturaOnline(){
-    // https://cf.shopee.com.br/file/ad1241042e1c6cfd0901f44841174d03
+    
     return `[
         {   
             "image": "https://rogresph.sirv.com/Naturfive/CDN%20Sirv/varios-produtos-natura.jpeg", 
