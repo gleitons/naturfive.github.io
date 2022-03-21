@@ -146,6 +146,8 @@ function produtosNatura() {
             categoriaP = "Maquiagem";                   
         } else if (DeProduto.categoria == "hu"){
             categoriaP = "Humor";                   
+        } else if (DeProduto.categoria == "co"){
+            categoriaP = "Corpo";                   
         }else {
             categoriaP = `${DeProduto.categoria}`;    
         };
@@ -260,14 +262,14 @@ function categoriaFemininas() {
 
 
 function image1() {
-    document.getElementById('bannerHero').src = "/imagens-naturfive/bebe-naturfive.jpeg";
-    setTimeout("image2()", 4000);
-    document.getElementById('linkBanner').href = "https://www.natura.com.br/consultoria/naturfive";
+    // document.getElementById('bannerHero').src = "/imagens-naturfive/bebe-naturfive.jpeg";
+    // setTimeout("image2()", 4000);
+    // document.getElementById('linkBanner').href = "https://www.natura.com.br/consultoria/naturfive";
 }
 function image2(){
-    document.getElementById('bannerHero').src = "/imagens-naturfive/infantil-naturfive.jpeg";
-    setTimeout("image1()", 4000);
-    document.getElementById('linkBanner').href = "https://www.natura.com.br/consultoria/naturfive";
+    // document.getElementById('bannerHero').src = "/imagens-naturfive/infantil-naturfive.jpeg";
+    // setTimeout("image1()", 4000);
+    // document.getElementById('linkBanner').href = "https://www.natura.com.br/consultoria/naturfive";
 }
 function produtosID() {
     Produtos.innerHTML = `<a href="/natura.html" target="_blank" rel="nofollow">

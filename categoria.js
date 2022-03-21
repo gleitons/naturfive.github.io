@@ -108,6 +108,9 @@ function produtosNatura() {
         } else if (LocalizacaoPage == "/perfumaria.html"){
             catM = "pe";
             catMP = "Perfumaria";
+        } else if (LocalizacaoPage == "/corpo-e-banho.html"){
+            catM = "co";
+            catMP = "Corpo";
         } else {
             catM = "ge";
             catMP = "Natura";

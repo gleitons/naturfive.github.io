@@ -12,7 +12,34 @@ function  naturaOnline(){
             "SoHoje": "1",
             "link":"https://natura.com.vc/03_co_mg-nqs7x",
             "linkPagamento":"https://natura.com.vc/03_co_mg-nqs7x",
-            "txMercadolivre":"6,23"},
+            "txMercadolivre":"6,23"
+        },
+        {   
+            "image": "https://rogresph.sirv.com/Naturfive/CDN%20Sirv/68542.jpeg", 
+            "nomeProduto": "Fluido Multiprotetor FPS 50 / FPUVA 18 Chronos",
+            "categoria":"co",
+            "Preco":"84,50",  
+            "codigo":"68542 - Fluido Multiprotetor FPS 50 / FPUVA 18 Chronos - 50ml",      
+            "linkProdutoSiteNatura": "https://www.natura.com.br/p/fluido-multiprotetor-fps-50-fpuva-18-chronos-50ml/68542",    
+            "DescontoPorcento":"35",
+            "SoHoje": "1",
+            "link":"https://www.natura.com.br/p/fluido-multiprotetor-fps-50-fpuva-18-chronos-50ml/68542?consultoria=naturfive",
+            "linkPagamento":"https://www.natura.com.br/p/fluido-multiprotetor-fps-50-fpuva-18-chronos-50ml/68542?consultoria=naturfive",
+            "txMercadolivre":"6,23"
+        },
+        {   
+            "image": "https://rogresph.sirv.com/Naturfive/CDN%20Sirv/47421.jpeg", 
+            "nomeProduto": "Gel Creme Protetor Facial FPS 60/ FPUVA 20",
+            "categoria":"co",
+            "Preco":"44,90",  
+            "codigo":"47421 - Gel Creme Protetor Facial FPS 60/ FPUVA 20 Pele Mista a Oleosa Fotoequilíbrio - 50g",      
+            "linkProdutoSiteNatura": "https://www.natura.com.br/p/gel-creme-protetor-facial-fps-60-fpuva-20-pele-mista-a-oleosa-fotoequilibrio-50g/47421",    
+            "DescontoPorcento":"35",
+            "SoHoje": "1",
+            "link":"https://www.natura.com.br/p/gel-creme-protetor-facial-fps-60-fpuva-20-pele-mista-a-oleosa-fotoequilibrio-50g/47421?consultoria=naturfive",
+            "linkPagamento":"https://www.natura.com.br/p/gel-creme-protetor-facial-fps-60-fpuva-20-pele-mista-a-oleosa-fotoequilibrio-50g/47421?consultoria=naturfive",
+            "txMercadolivre":"6,23"
+        },
          {
             
             "image": "https://rogresph.sirv.com/Naturfive/CDN%20Sirv/115762.jpeg", 

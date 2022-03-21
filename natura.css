@@ -607,8 +607,8 @@ main {
     font-weight: 700;
 }
 .produto:hover{
-    margin-top: -5px;
-    box-shadow: rgba(50, 50, 50, 0.461) 0px 10px 15px 0px;
+    margin-top: -1px;
+    box-shadow: rgba(50, 50, 50, 0.255) 0px 5px 10px 0px;
 }
 .parcel {
     font-size: 12px;
