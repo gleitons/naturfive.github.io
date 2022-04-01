@@ -1,7 +1,7 @@
 
 var consultor = "?consultoria=naturfive"
 function slidesBody() {
-    const aleBanner = (Math.random() * 8).toFixed(0,1);
+    const aleBanner = (Math.random() * 9).toFixed(0,1);
    
     
     if (aleBanner == 1) {
@@ -14,12 +14,15 @@ function slidesBody() {
         bannerPromo4();
     }else if (aleBanner == 5){
         bannerPromo5();
-    } else if (aleBanner == 5){
+    } else if (aleBanner == 6){
         bannerPromo6();
-    } else if (aleBanner == 5){
+    } else if (aleBanner == 7){
         bannerPromo7();
-    }else {
+    }
+    else if (aleBanner == 8){
         bannerPromo8();
+    }else {
+        bannerPromo9();
     }
    
     
@@ -54,9 +57,10 @@ function bannerPromo3() {
     return (imgFundo, linkF, imgP)
 }
 function bannerPromo4() {
-    const urlR = localStorage.getItem('b4_naturfive') 
+    
+    const urlR = localStorage.getItem('b4_naturfive');
     const imgFundo = document.getElementById('bodyNatura').style.backgroundImage = `url(${urlR})`
-    const linkF = document.getElementById('heroPromo').href = "https://www.natura.com.br/una?consultoria=naturfive&iprom_creative=lp_conheca_una&iprom_id=home_bannerprincipal&iprom_name=destaque1_una_meuvermelho_ajustado_11022022&iprom_pos=1"
+    const linkF = document.getElementById('heroPromo').href = "https://www.natura.com.br/c/gerais/promocao-exclusiva?consultoria=naturfive&iprom_creative=cat_euquero_promocaoexclusiva&iprom_id=home_bannerprincipal&iprom_name=destaque1_mesdoconsumidor_ultimachance_29032022&iprom_pos=1"
     const imgP = document.getElementById('imagePromo').src = `${urlR}`
     
     return (imgFundo, linkF, imgP)
@@ -94,9 +98,9 @@ function bannerPromo8() {
     return (imgFundo, linkF, imgP)
 }
 function bannerPromo9() {
-    const urlR = "https://static.natura.com/cdn/ff/X2xnM5J9QNjhlS6HFFfbS-jVGgyErriJK7UuZmZdJnA/1643060748/public/styles/banner_full_desktop/public/2022-01/essencial-supreme-feminino-desk.jpg?itok=WsFWGHBN"
+    const urlR = "https://rogresph.sirv.com/Naturfive/CDN%20Sirv/ultima-chance-mes-consumidor-desk-home.jpeg"
     const imgFundo = document.getElementById('bodyNatura').style.backgroundImage = `url(${urlR})`
-    const linkF = document.getElementById('heroPromo').href = "https://www.natura.com.br/consultoria/naturfive"
+    const linkF = document.getElementById('heroPromo').href = "https://www.natura.com.br/c/gerais/promocao-exclusiva?consultoria=naturfive&iprom_creative=cat_euquero_promocaoexclusiva&iprom_id=home_bannerprincipal&iprom_name=destaque1_mesdoconsumidor_ultimachance_29032022&iprom_pos=1"
     const imgP = document.getElementById('imagePromo').src = `${urlR}`
     
     return (imgFundo, linkF, imgP)

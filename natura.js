@@ -192,7 +192,7 @@ function produtosNatura() {
         const selectAtendimento = 0;
         const idConsultor = "?consultoria=naturfive";
         
-
+        
 
 
         if (selectAtendimento == 1){
@@ -221,6 +221,7 @@ function produtosNatura() {
         document.getElementById(`${exibeProdutos}`).innerHTML += `<div nome="${DeProduto.nomeProduto} ${DeProduto.codigo}">
             ${codProduto}
             <div class="produto" >
+                
                 ${promo}
                 <img src="${DeProduto.image}" alt="${DeProduto.nomeProduto} com desconto">
                 <h2>${DeProduto.nomeProduto}</h2>

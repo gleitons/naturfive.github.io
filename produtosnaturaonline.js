@@ -200,7 +200,7 @@ function  naturaOnline(){
             "linkPagamento":"https://mpago.la/1KWovMA",
             "txMercadolivre":"3,24"},
         {
-            "image": "https://static.natura.com/cdn/ff/kxD1A4LhUp7PtwaPceXqglgUH2-om-CfqfFAKtqMjk0/1642996431/public/products/68944_1_30.jpg", 
+            "image": "https://rogresph.sirv.com/Naturfive/CDN%20Sirv/68944.jpeg", 
             "nomeProduto": "Kriska Shock Desodorante Colônia",
             "categoria":"fe",
             "Preco":"63,50",  
