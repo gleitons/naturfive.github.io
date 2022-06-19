@@ -15,6 +15,45 @@ function  naturaOnline(){
             "txMercadolivre":"6,23"
         },
         {   
+            "image": "/imagem-produtos/creme-de-pele-min-100383.jpeg", 
+            "nomeProduto": "Refil Creme Desodorante Nutritivo Para o Corpo Tododia Ameixa e Flor de Baunilha",
+            "categoria":"co",
+            "Preco":"21,50",  
+            "codigo":"100383 - Refil Creme Desodorante Nutritivo Para o Corpo Tododia Ameixa e Flor de Baunilha - 400 ml",      
+            "linkProdutoSiteNatura": "https://www.natura.com.br/p/refil-creme-desodorante-nutritivo-para-o-corpo-tododia-ameixa-e-flor-de-baunilha-400-ml/100383",    
+            "DescontoPorcento":"35",
+            "SoHoje": "1",
+            "link":"https://www.natura.com.br/p/refil-creme-desodorante-nutritivo-para-o-corpo-tododia-ameixa-e-flor-de-baunilha-400-ml/100383?consultoria=naturfive",
+            "linkPagamento":"https://www.natura.com.br/p/refil-creme-desodorante-nutritivo-para-o-corpo-tododia-ameixa-e-flor-de-baunilha-400-ml/100383?consultoria=naturfive",
+            "txMercadolivre":"6,23"
+        },
+        {   
+            "image": "https://rogresph.sirv.com/Naturfive/CDN%20Sirv/natura-tododia-cereja-min-99137_1_14.jpeg", 
+            "nomeProduto": "Creme Nutritivo Para o Corpo Tododia Cereja e Avelã",
+            "categoria":"co",
+            "Preco":"35,00",  
+            "codigo":"99137 - Creme Desodorante Nutritivo Para o Corpo Tododia Cereja e Avelã - 400 ml",      
+            "linkProdutoSiteNatura": "https://www.natura.com.br/p/creme-desodorante-nutritivo-para-o-corpo-tododia-cereja-e-avela-400-ml/99137",    
+            "DescontoPorcento":"35",
+            "SoHoje": "1",
+            "link":"https://www.natura.com.br/p/creme-desodorante-nutritivo-para-o-corpo-tododia-cereja-e-avela-400-ml/99137?consultoria=naturfive",
+            "linkPagamento":"https://www.natura.com.br/p/creme-desodorante-nutritivo-para-o-corpo-tododia-cereja-e-avela-400-ml/99137?consultoria=naturfive",
+            "txMercadolivre":"6,23"
+        },
+        {   
+            "image": "https://rogresph.sirv.com/Naturfive/CDN%20Sirv/seve-amendoas-intensa-200-ml-natura-desconto-38854.jpeg", 
+            "nomeProduto": "Óleo Desodorante Corporal Sève Amêndoas Doces Intensa",
+            "categoria":"co",
+            "Preco":"34,70",  
+            "codigo":"638854 - Óleo Desodorante Corporal Sève Amêndoas Doces Intensa - 200 ml",      
+            "linkProdutoSiteNatura": "https://www.natura.com.br/p/oleo-desodorante-corporal-seve-amendoas-doces-intensa-200-ml/38854",    
+            "DescontoPorcento":"35",
+            "SoHoje": "1",
+            "link":"https://www.natura.com.br/p/oleo-desodorante-corporal-seve-amendoas-doces-intensa-200-ml/38854?consultoria=naturfive",
+            "linkPagamento":"https://www.natura.com.br/p/oleo-desodorante-corporal-seve-amendoas-doces-intensa-200-ml/38854?consultoria=naturfive",
+            "txMercadolivre":"6,23"
+        },
+        {   
             "image": "https://rogresph.sirv.com/Naturfive/CDN%20Sirv/68542.jpeg", 
             "nomeProduto": "Fluido Multiprotetor FPS 50 / FPUVA 18 Chronos",
             "categoria":"co",
@@ -296,7 +335,7 @@ function  naturaOnline(){
             "linkPagamento":"https://mpago.la/2uTZFYV",
             "txMercadolivre":"3,24"},
         {
-            "image": "/natura-img/22557.jpeg", 
+            "image": "/imagem-produtos/kaik-aventura-natura-min-22557.jpeg", 
             "nomeProduto": "Kaiak Aventura Desodorante Colônia Masculino",
             "categoria":"ma",
             "Preco":"63,45",
