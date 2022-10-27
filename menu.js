@@ -59,7 +59,7 @@ function menuFooterIn() {
                     <li><a href="/politica-de-privacidade.html">+ Política de Privacidade</a></li>
                     <li><a href="/trocas-e-devolucoes.html">+ Troca e devoluções</a></li>
                     <li><a href="/perguntas-frequentes.html">+ Perguntas frequentes</a></li>
-                    <li><a href="/fretes-e-entregas.html">+ Fretes e entregas</a></li>
+                    <li><a href="https://www.natura.com.br/404?consultoria=naturfive">+ Fretes e entregas</a></li>
                     
                 </nav>
             </div>
